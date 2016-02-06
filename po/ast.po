@@ -1,0 +1,229 @@
+# Copyright (C) 2005 Free Software Foundation, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2010-01-27 09:40+0100\n"
+"Last-Translator: marquinos <marquinos@mandriva.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Ferramienta d'informe d'Estadístiques de Rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Guetar:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Aplicar peñera"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Paquetes Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Ferramientes Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Estadístiques de Paquetes"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Refrescar"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Aida"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Unviar Estadístiques"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Colar"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paquete"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Non utilizáu dende (díes)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Caberu ficheru accedíu"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplicación"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Usáu en (díes)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Resume"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Avisu"
+
+#: ../drakstats:128
+#, c-format
+msgid "The <noatime> option is set on your / or /usr partition, the information provided by drakstats about file access time may be irrelevant"
+msgstr "La opción <noatime> ta afitada na to partición / o /usr, la información dada por drakstats sobro'l tiempu d'accesu a ficheru puede ser irrelevante"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Espera, por favor"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Lleendo estadístiques de la base de datos de los paquetes..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nome: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versión: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Edición: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Tamañu: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Resume: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Descripción: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Ficheros: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Información de Paquete"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Zarrar"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Unviar estadístiques"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Autentificáu por: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Encaboxar"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Unviar"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Unviando estadístiques..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Fallu"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"¡L'unvíu de los datos falló!\n"
+" por favor, envía un corréu electrónicu a cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Más Información"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Non"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Sí"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Aceutar"
+

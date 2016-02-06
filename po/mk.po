@@ -1,0 +1,238 @@
+# translation of drakstats.po to
+# Copyright (C) 2005 Free Software Foundation, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-04-19 12:17+0100\n"
+"Last-Translator: Зоран Димовски <decata@mt.net.mk>\n"
+"Language-Team: Macedonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9\n"
+"Plural-Forms: nplurals=2; plural= n==1 || n%10==1 ? 0 : 1\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Rpm алатка за пријавување на статистиките"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Барај:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Примени филтер"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm Пакети"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux алатки"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Статистики за пакетите"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Освежи"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Помош"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Прати статистики"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Напушти"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Пакет"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Не е искористена од (денови)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Последна датотека до која е пристапено"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Апликација"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Користена на (денови)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Преглед"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Предупредување"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Опцијата <noatime> е поставена на вашата / или /usr партиција, информациите "
+"кои се обезбедени од drakstats за времето на пристап на датотеките можеби се "
+"непотребни"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Ве молиме, почекајте"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Се читаат статистиките од базата на пакети..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Име: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Верзија: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Издание: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr " Големина:"
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Преглед: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Опис: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Датотеки: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Информации за пакет"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Затвори"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Прати статистики"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Автентицирано од: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Прати"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Испраќам статистики..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Грешка"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Праќањето на податоци не успеа!\n"
+" ве молиме изпратете е-пошта на cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Повеќе информации"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Отстрани"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Не"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Да"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Во ред"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Статус"

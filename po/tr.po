@@ -1,0 +1,231 @@
+# translation of drakstats.po to Turkish
+# Copyright (C) 2008 Free Software Foundation, Inc.
+#
+# Atilla ÖNTAŞ <atilla_ontas@hotmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2008-05-08 18:40+0300\n"
+"Last-Translator: Atilla ÖNTAŞ <atilla_ontas@hotmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Rpm Durumları Raporlama Aracı"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Ara:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Süzgeç uygula"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm Paketleri"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux Araçları"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Paket Durumları"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Yenile"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Yardım"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Durumları Gönder"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Çık"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paket"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Şu tarihten beri kullanılmamış (günler)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Erişilen son dosya"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Uygulama"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Şu tarihlerde kullanılmış (günler)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Özet"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Uyarı"
+
+#: ../drakstats:128
+#, c-format
+msgid "The <noatime> option is set on your / or /usr partition, the information provided by drakstats about file access time may be irrelevant"
+msgstr "Sisteminizin / veya /usr bölümünde <noatime> seçeneği işaretlenmiş; dosya erişim zamanı hakkında drakstats tarafından sunulan bilgi yetersiz olabilir"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Lütfen bekleyin"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Paket veritabanı durumları okunuyor..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "İsim: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Sürüm: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Yayım: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Boyut: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Özet: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Açıklama: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Dosyalar: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Paket Bilgisi"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Kapat"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Durumları Gönder"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Yetkilendiren: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Gönder"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Durumlar gönderiliyor..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Hata"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Veri gönderimi başarısız oldu!\n"
+" lütfen cooker@mandrivalinux.org adresine e-mektup gönderin"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Daha fazla bilgi"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Kaldır"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Hayır"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Evet"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Tamam"
+

@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-07-02 14:05+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
+"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Alatan laporan Rpm Stat"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Cari:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Terap tapisan"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Pakej RPM"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Alatan Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Stat Pakej"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Segarkan"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Bantuan"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Hantar Stat"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pakej"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Tidak digunakan semenjak (hari)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Fail terakhir diakses"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplikasi"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Digunakan dalam (hari)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Ringkasan"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Amaran"
+
+#: ../drakstats:128
+#, c-format
+msgid "The <noatime> option is set on your / or /usr partition, the information provided by drakstats about file access time may be irrelevant"
+msgstr "Pilihan <noatime> ditetapkan dalam partisyen / atau /usr anda, maklumat yang diberikan oleh drakstats mengenai masa akses fail mungkin tidak relevan"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Sila tunggu"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Membaca stat pengkalan data pakej..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nama: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versi: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Keluaran:"
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Saiz: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Ringkasan: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Huraian: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Fail:"
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Maklumat Pakej"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Tutup"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Hantar stat"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Disahkan oleh:"
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Batal"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Hantar"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Menghantar stat..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Ralat"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Penghantaran data gagal!\n"
+" sila hantar emel ke cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Lebih Maklumat"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Nyahpasang"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Tidak"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ya"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+

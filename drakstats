@@ -1,0 +1,360 @@
+#!/usr/bin/perl
+################################################################################
+#                                                                              #
+#                                                                              #
+# Copyright (C) 2004-2005 Mandriva                                             #
+#
+# Daouda Lo <daouda@mandriva.com>                                              #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+
+#use strict;
+use lib qw(/usr/lib/libDrakX);
+use standalone;
+use interactive;
+use common;
+
+BEGIN { unshift @::textdomains, 'drakstats' }
+use ugtk2 qw(:create :helpers :wrappers);
+use Gtk2::Gdk::Keysyms;
+use URPM;
+use SOAP::Lite;
+
+my $pixdir = '/usr/share/drakstats/pixmaps/';
+my $sysconffile = '/etc/sysconfig/rpmstats';
+
+#ARGV for testing purpose
+#my $fstab_file = $ARGV[0] || '/etc/fstab';
+my $fstab_file = '/etc/fstab';
+
+my $var_file = '/var/log/drakstats';
+my $soap_server = 'maintainers.mandriva.com';
+
+add_icon_path($pixdir);
+$ugtk2::wm_icon = "drakstats_banner";
+
+my $in = interactive->vnew('su');
+
+my $us = {};
+$us->{VERSION} = '0.15';
+
+gtkflush();
+
+my ($stringsearch, $output_rpmstats);
+my @rpmstats;
+sub launch_help { exec("drakhelp --id drakstats") unless fork() }
+
+my $is_first_stats = -e $var_file ? 0 : 1;
+
+$us->{wnd} = ugtk2->new(N("Rpm Stats report tool") . " " . $us->{VERSION});
+gtkset_size_request($us->{wnd}{rwindow}, 660, 460);
+$us->{wnd}{rwindow}->set_position('center');
+$us->{wnd}{window}->signal_connect(delete_event => \&QuitGlobal);
+my $rpmtree_model = Gtk2::ListStore->new("Glib::String", "Glib::Int", "Glib::String");
+my $mdktree_model = Gtk2::ListStore->new("Glib::String", "Glib::Int", "Glib::String");
+my ($rpmtree, $mdktree);
+$rpmtree = create_tree($rpmtree_model); $mdktree = create_tree($mdktree_model);
+# slightly verbatimed from control-center
+my $filter;
+my $searchBox = gtkpack_(Gtk2::HBox->new(0,5),
+                         1, Gtk2::Label->new(""),
+                         0, Gtk2::Label->new(N("Search:")),
+                         0, gtksignal_connect($filter = Gtk2::Entry->new,
+					      key_press_event => sub { $_[1]->keyval == $Gtk2::Gdk::Keysyms{Return} and process_outputs($rpmtree_model, $filter->get_text, \@rpmstats) }),
+                         0, my $fbut = Gtk2::Button->new(N("Apply filter")),
+                        );
+gtkappend_page(my $nb = Gtk2::Notebook->new, gtkpack(create_scrolled_window($rpmtree)), gtkshow(Gtk2::Label->new(N("Rpm Packages"))));
+#gtkappend_page($nb, gtkpack(create_scrolled_window($mdktree)), gtkshow(Gtk2::Label->new(N("Mandriva Linux Tools"))));
+$nb->set_show_border(0);
+$us->{wnd}{window}->add(gtkpack_(Gtk2::VBox->new(0, 5),
+				 if_(!$::isEmbedded, 0, Gtk2::Banner->new("drakstats_banner", N("Packages Stats"))), 
+				 0, $searchBox,
+				 0, Gtk2::HSeparator->new,
+				 0, gtkpack_(Gtk2::HBox->new(0,5),
+					     0, gtksignal_connect(Gtk2::Button->new(N("Refresh")), clicked => sub { compute_stats(0, 0) }),
+					     1, Gtk2::Label->new("")),
+				 0, Gtk2::HSeparator->new,
+				 1, $nb,
+				 0, gtkpack_(
+					     Gtk2::HBox->new(0, 20),
+					     if_(
+						 !$::isEmbedded,
+						 0, gtksignal_connect(
+								      Gtk2::Button->new(N("Help")),
+								      clicked => sub {
+									  launch_help();
+								      },
+								     ),
+						),
+					     0, my $action_button = gtksignal_connect(
+										      Gtk2::Button->new(N("Send Stats")),
+										      clicked => sub { ask_for_upload() }
+										     ),
+					     1, Gtk2::Label->new(''),
+					     0, gtksignal_connect(
+								  Gtk2::Button->new(N("Quit")),
+								  clicked => sub { Gtk2->main_quit },
+								 ))));
+my @rpmcolsize = (220, 100, 170, -1); my @mdkcolsize = (190, 100, 170, -1);
+each_index {
+    my $col = Gtk2::TreeViewColumn->new_with_attributes($_, Gtk2::CellRendererText->new, 'text' => $::i);
+    $col->set_sort_column_id($::i);
+    $col->set_min_width($rpmcolsize[$::i]);
+    $rpmtree->append_column($col);
+} (N("Package"), N("Not used since (days)"), N("Last file accessed"));
+
+each_index {
+    my $col = Gtk2::TreeViewColumn->new_with_attributes($_, Gtk2::CellRendererText->new, 'text' => $::i);
+    $col->set_sort_column_id($::i);
+    $col->set_min_width($mdkcolsize[$::i]);
+    $mdktree->append_column($col);
+} (N("Application"), N("Used within(days)"), N("Summary"));
+
+$fbut->signal_connect('clicked', sub { $stringsearch = $filter->get_text; process_outputs($rpmtree_model, $stringsearch, \@rpmstats) });
+$nb->signal_connect('switch-page' => sub { NotebookSwitch() });
+
+no_atime() and gtk_msg_(N("Warning"), N("The <noatime> option is set on your / or /usr partition, the information provided by drakstats about file access time may be irrelevant"));
+
+compute_stats($is_first_stats, 1);
+
+$us->{wnd}{rwindow}->show_all;
+$us->{wnd}->main;
+
+
+ugtk2->exit(0);
+$in->exit if $in; 
+
+sub compute_stats {
+    my ($comp_stats, $startup) = @_;
+    my $wait = $in->wait_message(N("Please wait"), N("Reading packages database stats..."));
+    $output_rpmstats = $startup && !$comp_stats ? cat_($var_file) : `rpmstats`;
+    @rpmstats = split('\n', $output_rpmstats);
+    process_outputs($rpmtree_model, '', \@rpmstats);
+    output_with_perm($var_file, 0640, $output_rpmstats);
+    undef $wait;
+}
+sub process_outputs {
+    my ($model, $string, $ref_from_rpmstats) = @_;
+    $model->clear;
+    foreach my $l (@$ref_from_rpmstats) {
+	my ($wday, $package, $file) = split ' ', $l;
+	$model->append_set([ 0 => $package, 1 => $wday, 2 => $file ]) if $package =~ /^\Q$string/;
+    }
+}
+sub get_strict_name {
+    my ($name, $version, $release) = $_[0] =~ /^(.*)-([^\-]*)-([^\-]*)$/;
+    $name;
+}
+sub print_rpm_attr {
+    my $rpm_name = shift;
+    require URPM;
+    require Gtk2::Pango;
+    # using the local RPM database
+    my $db = URPM::DB::open();
+    my $color = {};
+    foreach my $l (['first', 'red'], ['second', 'royalblue3']) { 
+	$color->{$l->[0]} = { 'foreground' => $l->[1], 'weight' => Gtk2::Pango->PANGO_WEIGHT_BOLD };
+    }
+    my $contents;
+    my $strict_name = get_strict_name($rpm_name);
+    $strict_name and $db->traverse_tag('name', [ $strict_name  ], sub {
+					   my ($p) = @_;
+					   my $file = join("\n", $p->files);
+					   $contents = [ [ N("Name: "), $color->{second} ], [ $p->name . "\n" ],
+							 [ N("Version: "), $color->{second} ], [ $p->version . "\n" ],
+							 [ N("Release: "), $color->{second} ], [ $p->release . "\n" ],
+							 [ N("Size: "), $color->{second} ], [ N("%s KB", int($p->size/1024)) . "\n" ],
+							 [ "\n" . N("Summary: "), $color->{second} ], [ $p->summary . "\n" ],
+							 [ "\n" . N("Description: "), $color->{second} ], [ $p->description . "\n" ],
+							 [ "\n" . N("Files: "), $color->{second} ], [ "\n" . $file . "\n" ],
+						       ];
+				       });
+    $contents;
+}
+sub edit_infos() {
+    my (undef, $iter) = $rpmtree->get_selection->get_selected;
+    my $name = $rpmtree_model->get($iter, 0);
+    my $w = ugtk2->new(N("Package Info"), center => 1);
+    gtkset_size_request($w->{window}, 550, 320);
+    $w->{window}->signal_connect(delete_event => sub { Gtk2->main_quit });
+    my $textview = Gtk2::TextView->new;
+    gtkadd($w->{window},
+	   gtkpack_(Gtk2::VBox->new(0, 2),
+                    1, create_scrolled_window(gtktext_insert($textview, print_rpm_attr($name))),
+                    0, Gtk2::HSeparator->new,
+                    0,  gtkpack_(Gtk2::HBox->new(0, 5),
+				 1, Gtk2::Label->new(""),
+				 0, gtksignal_connect(my $close = Gtk2::Button->new(N("Close")),
+                                                      clicked => sub { 
+                                                          Gtk2->main_quit;
+                                                      }
+						     )
+				)));
+    $w->main;
+}
+sub ask_for_upload() {
+    my $w = ugtk2->new(N("Send stats"), grab => 1, center => 1, transient => $us->{wnd}{window}{window});
+    #=> SOAP
+    #https://www.mandrivaclub.com/club_RemoteAction.php?log=Ayo&pass=mandrake&action=list
+    my $mac_wg = Gtk2::Entry->new;
+    $w->{window}->add(gtkpack(Gtk2::VBox->new(0, 0),
+                              create_packtable({ homogeneous => 0, col_spacings => 0, row_spacings =>0 },
+                                               [ N("Authenticated by: "), $mac_wg ],
+					      ),
+                              Gtk2::HSeparator->new,
+                              gtkpack(
+                                      create_hbox(),
+                                      gtksignal_connect(
+                                                        Gtk2::Button->new(N("Cancel")),
+                                                        clicked => sub {
+							    Gtk2->main_quit;
+                                                        }),
+                                      gtksignal_connect(
+                                                        Gtk2::Button->new(N("Send")),
+                                                        clicked => sub {
+                                                            my $mac = $mac_wg->get_text;
+							    my $ww = $in->wait_message('', N("Sending stats..."));
+							    my $result = eval { upload_stats($mac, $output_rpmstats) };
+ 							    my $error = $@;
+							    undef $ww;
+							    if ($result eq 'OK') {
+								Gtk2->main_quit;
+							    } else {
+								gtk_msg_(N("Error"), join("\n", N("Sending data failed!\n please send email to cooker\@mandrivalinux.org"), if_($error, $error)), transient => $w->{window}{window});
+							    }
+							}),
+				     )));
+    $w->{rwindow}->show_all;
+    $mac_wg->set_text(get_mac_addr());
+    $w->main;
+}
+sub upload_stats {
+    my ($id, $output) = @_;
+    my $s = SOAP::Lite->uri("http://$soap_server/Putstats")->proxy("http://$soap_server/cgi-bin/putstats.cgi")->save_stat2file($id, $output);
+    my $res = $s->result;
+    $res;
+}
+sub TreeUnselect {
+    my $treev = shift;
+    $treev->get_selection->unselect_all;
+}
+sub NotebookSwitch() { 
+    my $page = $nb->get_current_page;
+    TreeUnselect($rpmtree); TreeUnselect($mdktree);
+}
+sub get_name_from_iter {
+    my ($tree, $model, $rank) = @_;
+    my (undef, $iter) = $tree->get_selection->get_selected;
+    my $name = $model->get($iter, $rank);
+    $name;
+}
+# Gtk Facilities
+sub create_tree {
+    my ($tree_model) = @_;
+    my $tree = Gtk2::TreeView->new_with_model($tree_model);
+    $tree->get_selection->set_mode('browse');
+    $tree->set_headers_visible(1);
+    $tree->set_rules_hint(1);
+    my $menu_treeview = Gtk2::Menu->new;
+    my @menu_treeview_actions = ([ 'edit', N("More Info") ], ['remove', N("Uninstall")]);
+    foreach (@menu_treeview_actions) {
+        my ($action, $text) = @$_;
+        my %actions; %actions = (
+                                 edit => sub { 
+				     my (undef, $iter) = $tree->get_selection->get_selected;
+				     $iter and edit_infos();
+				 },
+				 remove => sub {
+				     my (undef, $iter) = $tree->get_selection->get_selected;
+				     my $search_pkg = $tree_model->get($iter, 0);
+				     $search_pkg and system("/usr/sbin/rpmdrake-remove", "--root", "--search=$search_pkg");
+				 }
+				);
+        $menu_treeview->append(gtksignal_connect(gtkshow(Gtk2::MenuItem->new_with_label($text)), activate => sub { $actions{$action}->() }));
+    }
+    $tree->signal_connect(button_press_event => sub {
+			       my (undef, $event) = @_;
+			       my (undef, $iter) = $tree->get_selection->get_selected;
+			       return unless $iter;
+			       edit_infos() if $event->type eq '2button-press';
+			       $_[1]->button == 3 and  $menu_treeview->popup(undef, undef, undef, undef, $_[1]->button, $_[1]->time);
+			   });
+    $tree->signal_connect(key_press_event => sub {
+			       my (undef, $event) = @_;
+			       my (undef, $iter) = $tree->get_selection->get_selected;
+			       return unless $iter;
+			       edit_infos() if $event->keyval == $Gtk2::Gdk::Keysyms{Return};
+			   });
+    $tree;
+}
+sub gtk_msg_ { gtk_msg(@_, if_(exists $us->{wnd}{window}{window}, transient => $us->{wnd}{window}{window})) }
+sub gtk_msg {
+    my ($title, $contents, %options) = @_;
+    my $d = ugtk2->new($title, grab => 1, if_(exists $options{transient}, transient => $options{transient}));
+    $d->{rwindow}->set_position($options{transient} ? 'center_on_parent' : 'center_always') if !$::isEmbedded;
+    gtkadd(
+      $d->{window},
+         gtkpack_(Gtk2::VBox->new,
+	    1, ($options{scroll} ? gtkadd(
+			gtkset_shadow_type(Gtk2::Frame->new, 'in'),
+                       gtkset_size_request(
+                       create_scrolled_window(gtktext_insert(Gtk2::TextView->new, $contents)),
+                       420, 260
+                  )
+                ) : Gtk2::WrappedLabel->new($contents)
+            ),
+            0, gtkpack(create_hbox(),
+                (ref($options{yesno}) eq 'ARRAY' ? map {
+                        my $label = $_;
+                        gtksignal_connect(
+                            Gtk2::Button->new($label),
+                            clicked => sub { $d->{retval} = $label; Gtk2->main_quit }
+		       );
+		 } @{$options{yesno}}
+                    : (
+                        $options{yesno} ? (
+                            gtksignal_connect(
+                                Gtk2::Button->new($options{text}{no} || N("No")),
+                                clicked => sub { $d->{retval} = 0; Gtk2->main_quit }
+                            ),
+                            gtksignal_connect(Gtk2::Button->new($options{text}{yes} || N("Yes")),
+                                clicked => sub { $d->{retval} = 1; Gtk2->main_quit }),
+                        )
+                        : gtksignal_connect(
+                            Gtk2::Button->new(N("Ok")),
+                                clicked => sub { Gtk2->main_quit }
+                       )
+                    )
+                )
+            )
+          )
+          );
+    $d->{rwindow}->show_all;
+    $d->main;
+}
+sub in_array {
+    my ($item, $arr) = @_;
+    return any { $item eq $_ } @$arr;
+}
+sub no_atime() { 
+    my $cmp = any { m!^/dev/\S+.*\s+(?:/|/usr)\s+.*\s+noatime\s+! } cat_($fstab_file);
+    $cmp;
+}
+sub get_mac_addr() {
+    my $out_cmd = `/sbin/ifconfig`;
+    my ($m) = $out_cmd =~ m/HWaddr\s+(\S+)/;
+    $m =~ s/:/_/g;
+    $m || 'anonymous';
+}

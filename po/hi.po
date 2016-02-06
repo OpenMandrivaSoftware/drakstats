@@ -1,0 +1,238 @@
+# translation of drakstats-hi.po to Hindi, India
+# translation of drakstats-hi.po to हिन्दी, भारत (Hindi, India)
+# This file is distributed under the same license as the PACKAGE package.
+# The Persons' name are left as-it-is in English and not translated in Hindi.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# धनञ्जय शर्मा (Dhananjaya Sharma), 2003, 2004. 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-hi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-08-28 21:46+0530\n"
+"Last-Translator: धनञ्जय शर्मा (Dhananjaya Sharma)\n"
+"Language-Team: Hindi, India\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "आरपीएम आकड़ों के लिए रिपोर्ट टूल"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "खोज:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "फ़िल्टर को लगायें"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "आरपीएम के पैकेज़"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "मैनड्रिव लिनक्स के टूल"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "पैकेजों की स्थिति"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "पुनः ताजा करना"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "सहायता"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "आकड़ों का प्रेषण"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "निकास"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "पैकेज"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "उपयोग में नहीं लाया गया (दिनों से)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "अंतिम फ़ाइल जिसे खोला गया"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "ऐप्लीकेशन"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "इतने (दिनों) के भीतर उपयोग में लाया गया"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "सारांश"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"आपके / या /usr विभाजन पर यह <noatime> विकल्प स्थापित है, फ़ाइल पहुँच समय के बारे में, "
+"ड्रैकस्टेट्स द्वारा प्रदान की जाने वाली सूचना असंगत हो सकती है"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "कृपया प्रतीक्षा करें"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "पैकेजों के डाटाबेस के आकड़ों को पढ़ा जा रहा है..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "नाम: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "संस्मरण: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "संस्करण: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "आकार: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s केबी"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "सारांश: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "विवरण: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "फ़ाइलें: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "पैकेज के बारे में"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "बन्द"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "आकड़ों का प्रेषण"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "द्वारा प्रमाणित: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "निरस्त"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "प्रेषण"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "आकड़े भेजे जा रहे है..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "त्रुटि"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"डाटा भेजना असफ़ल रहा!\n"
+"कृपया cooker@mandrivalinux.org को ई-मेल भेजें"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "और अधिक सूचनायें"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "अ-संसाधन"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "नहीं"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "हाँ"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "ठीक"
+

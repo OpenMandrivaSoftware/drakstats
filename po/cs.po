@@ -1,0 +1,238 @@
+# translation of cs.po to
+# Translation of cs.po to Czech
+# Translation of drakstats cs.po to Czech
+# Copyright (C) 2005, 2008 Free Software Foundation, Inc.
+#
+# Michal Bukovjan <bukm@centrum.cz>, 2005.
+# Vlastimil Ott <vlastimil@e-ott.info>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: cs\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2008-03-15 11:33+0100\n"
+"Last-Translator: Vlastimil Ott <vlastimil@e-ott.info>\n"
+"Language-Team:  <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Nástroj pro hlášení statistik RPM balíčků"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Hledat:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Použít filtr"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM balíčky"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Nástroje Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Statistiky balíčků"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Obnovit"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Nápověda"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Poslat statistiky"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Konec"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Balíček"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Nebyl použit (dní)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Naposledy otevřený soubor"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplikace"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Použita (dní)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Shrnutí"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Varování"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Na kořenovém oddílu / nebo /usr je nastavena volba <noatime>, "
+"informace o čase posledního přístupu k souborům mohou být bezpředmětné"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Prosím počkejte"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Načítám statistiky databáze balíčků..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Název: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Verze: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Vydání: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Velikost: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s kB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Shrnutí: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Popis: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Soubory: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Informace o balíčku"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Zavřít"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Poslat statistiky"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Ověřeno kým: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Poslat"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Posílám statistiky..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Chyba"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Poslání dat selhalo!\n"
+"Pošlete prosím email na adresu cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Více informací"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Odinstalovat"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ano"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+

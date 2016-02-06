@@ -1,0 +1,232 @@
+# translation of drakstats.po to Punjabi
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-02-26 08:33+0530\n"
+"Last-Translator: Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>\n"
+"Language-Team: PLT <punlinux-i18n@list.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "ਆਰ ਪੀ ਐਮ ਸਥਿਤੀ ਰਿਪੋਰਟ ਜੰਤਰ"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "ਖੋਜ:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "ਆਰ ਪੀ ਐਮ ਪੈਕੇਜ਼"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "ਮੈਂਡਰਿਵ ਲੀਨਕਸ ਜੰਤਰ"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "ਪੈਕੇਜ਼ ਸਥਿਤੀ"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "ਮੁੜ ਤਾਜ਼ਾ"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "ਸਹਾਇਤਾ"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "ਸਥਿਤੀ ਭੇਜੋ"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "ਬਾਹਰ"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "ਪੈਕੇਜ਼"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "ਹਾਲੇ ਵਰਤਿਆ ਨਹੀਂ (ਦਿਨ)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "ਆਖਰੀ ਵਰਤੀ ਫਾਇਲ"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "ਕਾਰਜ"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "ਵਰਤਣ ਦੀ ਮਿਆਦ(ਦਿਨ)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "ਸਾਰ"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "ਚੇਤਾਵਨੀ"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "ਪੈਕੇਜ਼ ਡਾਟਾਬੇਸ ਸਥਿਤੀ ਪੜ ਰਿਹਾ ਹੈ..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "ਨਾਂ:"
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "ਵਰਜ਼ਨ:"
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "ਪ੍ਰਕਾਸ਼ਨ:"
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "ਅਕਾਰ:"
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s ਕੇ ਬੀ"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "ਸਾਰ:"
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "ਵਰਣਨ:"
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "ਫਾਇਲਾਂ:"
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "ਪੈਕੇਜ਼ ਜਾਣਕਾਰੀ"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "ਬੰਦ"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "ਸਥਿਤੀ ਭੇਜੋ"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "ਦੁਆਰਾ ਪ੍ਰਮਾਣਿਕ:"
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "ਭੇਜੋ"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "ਸਥਿਤੀ ਭੇਜ ਰਿਹਾ ਹੈ..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "ਗਲਤੀ"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"ਡਾਟਾ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ!\n"
+"ਕਿਰਪਾ ਕਰਕੇ cooker@mandrivalinux.org ਨੂੰ ਪੱਤਰ ਭੇਜੋ"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "ਵਧੇਰੇ ਜਾਣਕਾਰੀ"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "ਅਨ-ਇੰਸਟਾਲ"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "ਠੀਕ ਹੈ"

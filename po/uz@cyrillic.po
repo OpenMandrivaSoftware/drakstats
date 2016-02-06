@@ -1,0 +1,233 @@
+# Copyright (C) 2009 Free Software Foundation, Inc.
+#
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2009-12-18 20:42+0500\n"
+"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Rpm маълумотларини йиғиш воситаси"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Қидириш:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Филтрни қўллаш"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm пакетлар"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux ютилитилари"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Пакетлар бўйича маълумот"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Янгилаш"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Ёрдам"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Маълумотларни жўнатиш"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Чиқиш"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Пакет"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Қуйидагидан буён ишлатилмаган (кун)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Файлга қилинган сўнгги мурожаат"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Дастур"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Қуйидаги кунларда ишлатилган"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Ҳисобот"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Диққат"
+
+#: ../drakstats:128
+#, c-format
+msgid "The <noatime> option is set on your / or /usr partition, the information provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"<noatime> опцияси сизнинг / ёки /usr диск қисмингизга мосланган, drakstats томонидан файлга мурожаат қилиш ҳақидаги маълумоти хато бўлиши "
+"мумкин"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Илтимос кутиб туринг"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Пакетлар маълумот базасидан статистикани ўқиш..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Номи: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Версияси: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Релиз: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Ҳажми: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s кб"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Изоҳ: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Тарифи: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Файллар: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Пакет ҳақида маълумот"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Ёпиш"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Маълумотларни жўнатиш"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Тасдиқловчи: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Бекор қилиши"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Жўнатиш"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Маълумотлар жўнатилмоқда..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Хато"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Маълумотларни жўнатиб бўлмади!\n"
+" илтимос cooker@mandrivalinux.org мактуб жўнатинг"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Қўшимча маълумот"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Тизимдан олиб ташлаш"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Йўқ"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ҳа"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+

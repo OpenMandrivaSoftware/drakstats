@@ -1,0 +1,233 @@
+# translation of drakstats.po to Esperanto
+# Copyright (C).
+#
+# Vilhelmo Lutermano <vlutermano@free.fr>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2008-02-16 01:52+0100\n"
+"Last-Translator: Vilhelmo Lutermano <vlutermano@free.fr>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Raportilo pri rpm-statistikoj"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Serĉi:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Apliki filtrilon"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm-pakaĵoj"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva-Linuksaj iloj"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Pakaĵ-statistikoj"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Aktualigi"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Helpo"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Sendi statistikojn"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Eliri"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pakaĵo"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Ne uzata ekde (tagoj)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Laste alirita dosiero"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplikaĵo"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Uzado (tagoj)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Resumo"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Averto"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"La opcio <noatime> estas metita por via subdisko / aŭ /usr , la informoj "
+"liveritaj de drakstats pri la alirtempoj povas esti ne trafaj"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Bonvolu atendi"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Legante la statistikoj de la pakaĵ-datumbanko"
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nomo: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versio: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Eldono: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Grandeco: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Resumo: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Priskribo: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Dosieroj: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Pakaĵ-informo"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Fermi"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Sendi statistikojn"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Aŭtentigita de: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Ĉesigi"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Sendi"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Sendante statistikojn..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Eraro"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Sendado de datenoj malsukcesis!\n"
+" bonvolu sendi retmesaĝon al cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Pli da informoj"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Malinstalu"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Jes"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "En ordo"

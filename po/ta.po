@@ -1,0 +1,234 @@
+# translation of drakstats.po to
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# Viveka Nathan K <vivekanathan@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2006-01-28 11:32+0900\n"
+"Last-Translator: Viveka Nathan K <vivekanathan@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Rpm நிலை அறிவிக்கும் கருவி"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "தேடல்:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "வடிகட்டியை ஏற்று"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm பொட்டலங்கள்"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "மான்ட்ரிவா லினக்ஸ் கருவிகள்"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "பொட்டலங்களின் நிலை"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "புதுப்பி"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "உதவி"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "அனுப்பும் நிலை"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "வெளியே"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "பொட்டலம்"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "இன்னும் (நாட்கள்) பயன்படுத்தப்படவில்லை"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "கடைசியாக கோப்பு அணுகப்பட்டது"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "பயன்பாடு"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "இதற்குள் (நாட்கள்) பயன்படுத்தப்பட்டது"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "சுருக்கம்"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"உங்களது / அல்லது /usr பிரிவுகளில் <noatime> விருப்பம் அமைக்கப்பட்டிருக்கிறது, கோப்பு "
+"அணுகல் பற்றி drakstats தரும் தகவல் சரியாக இருக்காது"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "கொஞ்சம் பொறுக்கவும்"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "பொட்டலங்கள் தரவுதள நிலையை வாசிக்கிறது..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "பெயர்: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "பதிப்பு: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "வெளியீடு: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "அளவு: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s கி.பை."
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "சுருக்கம்: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "விரிவுரை: ்"
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "கோப்புகள்: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "பொட்டல தகவல்"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "மூடு"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "அனுப்பும் நிலை"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "அனுமதித்தவர்:"
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "நீக்கு"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "அனுப்பு"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "அனுப்புகின்ற நிலை..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "பிழை"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"தரவு அனுப்ப தவறியது!\n"
+"cooker@mandrivalinux.org ற்கு மின்னஞ்சல் அனுப்புக"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "மேலும் தகவல்"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "நிறுவலை நீக்கு"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "இல்லை"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "ஆம்"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "சரி"

@@ -1,0 +1,241 @@
+# translation of hu.po to Hungarian
+# translation of drakstats to Hungarian
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Arpad Biro <biro.arpad gmail>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-04-14 13:59+0200\n"
+"Last-Translator: Arpad Biro <biro.arpad gmail>\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "RPM-statisztikakészítő"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Keresés:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Szűrő alkalmazása"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM-csomagok"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux-eszközök"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Csomagstatisztika"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Segítség"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Statisztika küldése"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Csomag"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Nincs használva ennyi ideje (nap)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Legutóbb elért fájl"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Alkalmazás"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Használva ennyi időn belül (nap)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Összefoglaló"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"A <noatime> opció be van állítva a / vagy a /usr fájlrendszeren, ezért "
+"elképzelhető, hogy a Drakstats által adott, fájlelérési időkkel kapcsolatos "
+"információ érvénytelen."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Kis türelmet"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "A csomagadatbázis-statisztika beolvasása..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Név: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Verzió: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Kiadás: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Méret: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Összefoglaló: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Leírás: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Fájlok: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Csomaginformáció"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Bezárás"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Statisztika küldése"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Azonosítás: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Küldés"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Statisztika küldése..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Hiba"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Nem sikerült elküldeni az adatokat.\n"
+"Küldjön bejelentést a következő levélcímre: cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Több információ"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Eltávolítás"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Nem"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Igen"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Állapot"
+

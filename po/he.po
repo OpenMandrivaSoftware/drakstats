@@ -1,0 +1,234 @@
+# translation of drakstats.po to Hebrew
+# Copyright (C) 2005, 2008 Free Software Foundation, Inc.
+#
+# dovix <dovix2003@yahoo.com>, 2005.
+# Dotan Kamber <kamberd@yahoo.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2008-03-20 23:05+0200\n"
+"Last-Translator: Dotan Kamber <kamberd@yahoo.com>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "כלי דיווח סטטיסטיקת חבילות"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "חיפוש:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "החלת מסנן"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "חבילות RPM"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "כלי מנדריבה לינוקס"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "סטטיסטיקת חבילות"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "רענן"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "עזרה"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "שלח סטטיסטיקות"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "יציאה"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "חבילה"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "לא בשימוש מזה (ימים)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "קובץ אחרון שהיה בשימוש"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "יישום"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "בשימוש מזה (ימים)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "סיכום"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "אזהרה"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr "האפשרות <noatime> הוגדרה בעיגון מחיצת השורש / או מחיצת /usr, ולכן המידע שנאסף ע\"י drakstats אודות זמן הגישה לקבצים, עלול להיות שגוי"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "נא להמתין"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "קורא סטטיסטיקות מסד נתוני חבילות..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "שם: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "גרסה: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "שחרור: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "גודל: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "סיכום: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "תיאור: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "קבצים: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "מידע אודות חבילה"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "סגור"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "שלח סטטיסטיקות"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "מאושר על ידי: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "בטל"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "שלח"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "שולח סטטיסטיקות..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "שגיאה"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"משלוח המידע נכשל!\n"
+" לדיווח על התקלה ניתן לשלוח הודעת דוא\"ל ל-cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "מידע נוסף"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "הסרה"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "לא"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "כן"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "אישור"
+

@@ -1,0 +1,235 @@
+# translation of drakstats-bs.po to Bosnian
+# translation of bs.po to Bosanski
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Vedran Ljubovic <vljubovic@smartnet.ba>, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-bs\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2006-09-09 22:15+0200\n"
+"Last-Translator: Vedran Ljubovic <vljubovic@smartnet.ba>\n"
+"Language-Team: Bosnian <lokal@linux.org.ba>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Alat za izvještaje RPM statistike"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Traži:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Primijeni filter"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM paketi"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux alati"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Statistika paketa"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Pomoć"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Pošalji statistike"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Izlaz"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paket"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Nije korišten već (dana)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Posljednje korištena datoteka"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplikacija"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Korištena u zadnjih (dana)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Sažetak"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Opcija <noatime> je podešena na vašoj / ili /usr particiji, informacija o "
+"vremenu pristupa koju pruža drakstats može biti netačna"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Molim sačekajte"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Čitam bazu statistike paketa..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Naziv: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Verzija: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Izdanje: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Veličina: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Sažetak: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Opis: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Datoteke: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Informacije o paketu"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Zatvori"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Pošalji statistiku"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Identitet potvrđen: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Pošalji"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Šaljem statistiku..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Greška"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Slanje podataka nije uspjelo!\n"
+" molim pošaljite e-mail na cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Još informacija"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Deinstaliraj"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "U redu"

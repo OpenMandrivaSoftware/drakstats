@@ -1,0 +1,238 @@
+# translation of drakstats-fa.po to 
+# translation of drakstats.po to 
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# , 2005.
+# , 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-fa\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-02-07 16:23-0500\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "ابزار گزارش rpm Stats"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "جستجو:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "گذاشتن فیلتر"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "بسته‌های Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "ابزار لینوکس ﻡﺎﻧﺩﺭیﺑﺍ "
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "وضعیت بسته‌ها"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "نوسازی"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "راهنما"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "فرستادن وضعیت"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "ترک"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "بسته"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "استفاده نشده از (روز)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "آخرین دستیابی به پرونده"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "برنامه"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "استفاده شده بین (روز)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "خلاصه"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "هشدار"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "لطفاً صبر کنید"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "در حال خواندن وضعیت پایگاه‌داده بسته‌ها..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "نام: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "نسخه: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "انتشار: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "اندازه: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s کیلوبایت"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "خلاصه: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "توضیح: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "پرونده‌ها: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "اطلاعات بسته"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "بستن"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "فرستادن وضعیت"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "تآیید هویت توسط: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "فرستادن"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "فرستادن وضعیت..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "خطا"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"فرستادن داده‌ها شکست خورد!\n"
+"لطفا پست‌الکترونیکی را به cooker@mandrivalinux.org بفرستید"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "اطلاعات بیشتر"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "نصب‌برداری"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "نه"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "بله"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "باشه"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "وضعیت"

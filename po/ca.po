@@ -1,0 +1,238 @@
+# translation of drakstats-ca.po to
+# translation of ca.po to Catalan
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Albert Astals Cid <astals11@terra.es>, 2005.
+# Ticià Sala <tsala@pie.xtec.es>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-ca\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-10-23 06:24+0000\n"
+"Last-Translator: Ticià Sala <tsala@pie.xtec.es>\n"
+"Language-Team:  <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Eina d'informe d'estadístiques de rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Cerca:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Aplica el filtre"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Paquets rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Eines de Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Estadístiques dels paquets"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Refresca"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Envia les estadístiques"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Abandona"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paquet"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "No usat des de (dies)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Últim fitxer accedit"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplicació"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Usat en(dies)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Resum"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Avís"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"L'opció <noatime> està activada a la teva partició / o /usr, la "
+"informació proporcionada per drakstats sobre el temps d'accés als arxius "
+"pot ser irrellevant"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Espereu si us plau"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "S'està llegint la base de dades d'estadístiques de paquets..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nom: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versió: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Llançament: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Mida: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Resum: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Descripció: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Fitxers: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Informació del paquet"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Tanca"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Envia les estadístiques"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Autenticat per: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Envia"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "S'estan enviant les estadístiques..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"L'enviament de les dades ha fallat!\n"
+" si us plau envia un correu-e a cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Més informació"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Desinstal·la"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "No"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Sí"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Bé"
+

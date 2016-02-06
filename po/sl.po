@@ -1,0 +1,233 @@
+# translation of sl.po to Slovenian
+# translation of drakstats-sl.po to
+# Copyright (C) 2005, 2008 Free Software Foundation, Inc.
+#
+# Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2005.
+# Jure Repinc <jlp@holodeck1.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: sl\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2008-02-06 03:08+0100\n"
+"Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Orodje statistike za RPM"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Iskanje:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Uporabi filter"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Paketi RPM"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Orodja Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Statistika paketov"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Osveži"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Pomoč"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Pošlji statistiko"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Končaj"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paket"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Ni v rabi zadnjih (dni)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Zadnja dostopana datoteka"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Program"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "V rabi zadnjih (dni)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Povzetek"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Opozorilo"
+
+#: ../drakstats:128
+#, c-format
+msgid "The <noatime> option is set on your / or /usr partition, the information provided by drakstats about file access time may be irrelevant"
+msgstr "Možnost <noatime> je nastavljena na vašem / ali /usr razdelku. DrakStats-ovi podatki o dostopnem času do datoteke so lahko neuporabni."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Prosim, počakajte!"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Branje statistike podatkovne zbirke paketov"
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Ime: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Različica: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Izdaja: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Velikost: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KiB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Povzetek: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Opis: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Datoteke: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Podatki o paketu"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Zapri"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Pošlji statistiko"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Overovil: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Pošlji"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Pošiljanje statistike ..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Napaka"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Pošiljanje podatkov ni uspelo!\n"
+"Prosimo pošljite e-pošto na cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Več informacij"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Odstranitev"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "V redu"
+

@@ -1,0 +1,237 @@
+# translation of drakstats-el.po to Greek
+# translation of drakstats.po to Greek
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Balaskas Euaggelos <ebalaskas@ebalaskas.gr>, 2005.
+# Theophanis Mastakas <mastakas@otenet.gr>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-el\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2006-03-18 14:50+0200\n"
+"Last-Translator: Theophanis Mastakas <mastakas@otenet.gr>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Εργαλείο Αναφοράς Στατιστικών Rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Εφαρμογή Φίλτρου"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Πακέτα Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Εργαλεία της Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Στατιστικά Πακέτων"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Αποστολή Στατιστικών"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Πακέτο"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Αχρησιμοποίητο από (ημέρες)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Τελευταίο προσπελάσιμο αρχείο"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Εφαρμογή"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Χρησιμοποιήθηκε εντός (ημέρες)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Συνολικά"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Η επιλογή <noatime> είναι στην κατάτμηση / ή /usr ,η πληροφορία που "
+"παρέχεται από το drakstats αναφορικά με την ώρα πρόσβασης του αρχείου μπορεί "
+"να είναι άσχετη"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Παρακαλώ περιμένετε"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Ανάγνωση στατιστικών βάσης δεδομένων πακέτων..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Όνομα: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Έκδοση: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Έκδοση: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Μέγεθος: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Συνολικά: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Περιγραφή: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Αρχεία: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Πληροφορίες Πακέτου"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Αποστολή στατιστικών"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Αυθεντικοποίηση από: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Αποστολή"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Αποστολή Στατιστικών..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Αποτυχία αποστολής δεδομένων\n"
+"παρακαλώ στείλτε ηλεκτρονικό μήνυμα στο cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Περισσότερες Πληροφορίες"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Όχι"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ναι"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Εντάξει"

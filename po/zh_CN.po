@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats 2006\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-05-15 02:48+0800\n"
+"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
+"Language-Team: Mandriva Linux i18n Team <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "RPM 统计报告工具"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "搜索："
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "应用过滤器"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM 包"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux 工具"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "软件包统计"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "刷新"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "帮助"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "发送统计"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "退出"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "软件包"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "上次使用"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "文件上次访问"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "应用程序"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "使用频率"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "概要"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"您的 / 或 /usr 分区设置了 <noatime> 选项，drakstats 所提供的关于文件访"
+"问时间的信息可能不准确"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "请稍候"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "正在读取软件包数据库统计..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "名称："
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "版本："
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "发布："
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "大小："
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "概要："
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "描述："
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "文件数："
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "软件包信息"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "关闭"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "发送统计"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "签名："
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "取消"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "发送"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "正在发送统计..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "错误"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"发送数据失败！\n"
+"请向 cooker@mandrivalinux.org 报告错误"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "更多信息"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "卸载"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "否"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "是"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "确定"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "状况"

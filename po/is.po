@@ -1,0 +1,236 @@
+# translation of drakstats.po to Icelandic
+# translation of drakstats.po to icelandic
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-09-30 04:10+0000\n"
+"Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
+"Language-Team: Icelandic <isl@molar.is>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Rpm-skýrslutól"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Leita:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Nota síu"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm-pakkar"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux-verkfæri"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Pakkatölfræði"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Endurnýja"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Hjálp"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Senda tölfræði"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Hætta"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pakki"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Ekki notað í (daga)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Síðasta skrá notuð"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Forrit"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Notað innan (daga)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Yfirlit"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Aðvörun"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"<noatime> er sett á / eða /usr sneiðinni,, upplýsingarnar sem "
+"drakstats gefur um aðgangstíma skráa eru sennilega ekki marktækar"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Augnablik"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Les tölfræði pakka-gagnagrunns..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nafn: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Útgáfa: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Undirnr: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Stærð: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Yfirlit: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Lýsing: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Skrár: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Pakka-upplýsingar"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Loka"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Senda tölfræði"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Samþykkt af: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Senda"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Sendi tölfræði..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Villa"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Gat ekki sent gögn!\n"
+"lýsið villu fyrir cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Nánari upplýs"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Fjarlægja"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Nei"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Já"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Í lagi"
+

@@ -1,0 +1,239 @@
+# translation of drakstats.po to Thai
+# translation of drakstats.po to
+# translation of drakstats.po to
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Anupan Rungkijkeattikun <anupan@unitedpaper.co.th>, 2005.
+# Wachara Chinsettawong <wachara@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-02-07 22:33+0700\n"
+"Last-Translator: Wachara Chinsettawong <wachara@yahoo.com>\n"
+"Language-Team: Thai <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "โปรแกรมรายงานสถิติของ Rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "ค้นหา:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "ใช้ filter"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm Packages"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux Tools"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "สถิติของ Packages"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "อ่านค่าใหม่"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "ส่งสถิติ"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "ออก"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "กลุ่มโปรแกรม"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "ไม่ได้ใช้ตั้งแต่(วัน)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "ไฟล์สุดท้ายที่เรียกใช้"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Application"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "ใช้ภายใน(วัน)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "บทสรุป"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "คำเตือน"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "โปรดรอสักครู่"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "อ่านสถิติฐานข้อมูลของ packages ..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "ชื่อ: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "รุ่น: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Release: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "ขนาด: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "บทสรุป: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "รายละเอียด: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "ไฟล์:"
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "ข้อมูลของ Package"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "ปิด"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "ส่งสถิติ"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "รับรอง โดย: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "ส่ง"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "กำลังส่งสถิติ..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "เกิดความผิดพลาดขึ้น"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"การส่งข้อมูลผิดพลาด!\n"
+"โปรดส่งอีเมล์ ถึง cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "ข้อมูลเพิ่มเติม"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "ยกเลิกการติดตั้งโปรแกรม"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "ไม่"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "ใช่"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "ตกลง"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "สถานภาพ"

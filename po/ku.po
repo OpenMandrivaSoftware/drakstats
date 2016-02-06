@@ -1,0 +1,238 @@
+# translation of drakstats-ku.po to Kurdish
+# translation of drakstats-fr.po to kurdish
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Kadir Dilsiz <kadir@linux-ku.com>>, 2005.
+# Erdal Ronahi <erdal.ronahi@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-ku\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-10-09 00:55+0200\n"
+"Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
+"Language-Team: Kurdish <gnu-ku-wergerandin@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+"X-Poedit-Language: Kurdî\n"
+"X-Poedit-Country: Kurdistan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural= n != 1\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Amûra raporkirina statîstîkên RPM"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Lê bigere:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Filtre lêxe"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Paktajên Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Hacetên Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Statîstîk"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Rojanê bike"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Alîkarî"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Statîstîkan bişine"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Derkeve"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paket"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Pê kar hatiye (rojan)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Belgeya dawî pê kar hatiye"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplikasyon"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Pê karhatiye (rojan)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Destpêk"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Hişyarî"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Opsyona <noatime> di partîsyona / an /usr ya te heye, dibe ku agahiya ku "
+"drakstats bide der barê dema gihiştina dosiyan ne girîng e"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Ji kerema xwe re li hêviyê rawestin"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Xwendina statîstîkên daneya paktajan..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nav : "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versiyon : "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Ya dawî : "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Mezinî : "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s Ko"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Destpêk : "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Nasnameya kurt : "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Belgeyên : "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Zêdetir ser paktajan"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Bigre"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Statîstîkan bişîne"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Grêdan ji aliye : "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Betal"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Bişîne"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Statîstîk te şandin..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "çewt"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Dane ne hate şandin!\n"
+" Ji bo zêdetir zanibî ji cooker@mandrivalinux.org êre binivsînin"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Zêde zanibe"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Pakij bike"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Na"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Erê"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Dibe"

@@ -1,0 +1,234 @@
+# translation of drakstats-ky.po to Kirghiz
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Asilbek Sultanaliev, 2005
+# Ilyas Bakirov <just_ilyas@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-ky\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-04-27 18:14+0600\n"
+"Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
+"Language-Team: Kirghiz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "RPM боюнча статистика топтоочу аспап"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Издөө:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Фильтирди колдонуу"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM пакеттери"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux Аспаптары"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Пакеттер боюнча статистика"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Жаңылоо"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Жардам"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Статистиканы жөнөтүү"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Чыгуу"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Пакет"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Колдонулган жок (күн)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Файлга акыркы жетүү убакыты"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Программалык жабдык"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Убакыт ичинде колдонулду (күн)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Жыйынтык"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Эскертүү"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+" <noatime> опциясы сиздин / же /usr бөлүмдөрүңүзгө орнотулган, drakstats'тын "
+"файлдарга жетүү убакыт маалыматтары туура эмес болушу мүмкүн."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Күтө туруңуз"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Пакеттер берилиштер базасынын статистикасы окулуп жатат..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Аталышы: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Версиясы: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Чыгышы: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Өлчөмү: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s КБ"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Жыйынтык: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Кыскача түшүндүрмө: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Файлдар: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Пакет жөнүндө маалымат"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Жабуу"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Статистиканы жөнөтүү"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Тастыкталган: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Айнуу"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Жөнөтүү"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Статистика жөнөтүлүүдө..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Ката"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Берилиштерди жөнөтүүдө жаңылыштык!\n"
+" cooker@mandrivalinux.org э-почтага кат жөнөтүңүз"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Кошумча маалымат"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Алып салуу"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Жок"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ооба"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"

@@ -1,0 +1,235 @@
+# translation of drakstats-fr.po to Français
+# Nicolas Lecureuil <n1c0l4s.l3@wanadoo.fr>, 2005.
+# Nicolas Lécureuil <neoclust@mandriva.org>, 2005.
+# Christophe Berthelé <cpjc@free.fr>, 2006.
+# translation of drakstats-fr.po to
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-fr\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2006-02-05 18:19+0100\n"
+"Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
+"Language-Team: Français <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.1\n"
+"Plural-Forms: nplurals=2;plural=(n>1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Statistiques d'utilisation des paquetages"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Rechercher : "
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Appliquer le filtre"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Paquetages Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Outils Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Statistiques des paquetages"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Aide"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Envoyer les stats"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paquetage"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Non utilisé depuis (jours)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Dernier fichier accédé"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Application"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Utilisé dans les (jours)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Résumé"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Attention"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr "L'option <noatime> est configurée pour votre partition / ou /usr, les informations fournies par drakstats concernant la date d'accès des fichiers peuvent être erronées"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Veuillez patienter"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Lecture des stats de la base de données des paquetages ..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nom : "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Version : "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Release : "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Taille : "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s Ko"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Résumé : "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Description : "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Fichiers : "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Informations sur le paquetage"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Fermer"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Envoyer les stats"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Authentifié par : "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Stats en cours d'envoi..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Erreur"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"L'envoi de données a échoué !\n"
+" Veuillez contacter cooker@mandrivalinux.org pour plus d'information"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Plus d'informations"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Non"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Oui"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+

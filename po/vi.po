@@ -1,0 +1,241 @@
+# Vietnamese translation for drakstats module.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Trinh Minh Thanh <tmthanh@yahoo.com>, 2005.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-vi VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-05-07 20:01+0700\n"
+"Last-Translator: Trinh Minh Thanh <tmthanh@yahoo.com>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Công cụ báo cáo Rpm Stats"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Tìm kiếm:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Áp dụng bộ lọc"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Gói rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Công cụ Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Trạng thái gói tin"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Nạp lại"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Gửi trạng thái"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Thoát"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Gói"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Không dùng từ (ngày)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Tập tin mới truy cập"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Ứng dụng"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Dùng trong (ngày)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Tóm tắt"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Tùy chọn <noatime> được đặt cho phân vùng / hoặc /usr, thông tin về thời "
+"gian truy cập tập tin do drakstats cung cấp có thể là không liên quan"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Hãy đợi"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Đang đọc trạng thái cơ sở dữ liệu các gói tin...."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Tên: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Phiên bản: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Phát hành: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Kích thước: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Tóm tắt: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Mô tả: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Tập tin: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Thông tin về gói"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Đóng"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Gửi trạng thái"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Chứng thực bởi: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Bỏ qua"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Gửi"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Đang gửi trạng thái..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Lỗi"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Không gửi được dữ liệu!\n"
+" Hãy gửi email đến cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Thêm thông tin"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Gỡ cài đặt"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Không"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Có"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#~ msgid "Not used since(days)"
+#~ msgstr "Không dùng từ (ngày)"
+
+#~ msgid "More Infos"
+#~ msgstr "Thêm thông tin"

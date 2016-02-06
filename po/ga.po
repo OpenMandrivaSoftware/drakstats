@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: all2.po\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2004-09-20 15:44+0200\n"
+"Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
+"Language-Team: br <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr ""
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Cuardaigh:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr ""
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr ""
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Uirlisí Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr ""
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Nuashonraigh"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Cabhair"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr ""
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Scoir"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pacáiste"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr ""
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr ""
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Feidhmchlár"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr ""
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Achoimre"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Rabhadh"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Fan go fóill, le do thoil"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr ""
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Ainm: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Leagan: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr ""
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Méid: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr ""
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Cur Síos: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr ""
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr ""
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Dún"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr ""
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr ""
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Seol"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr ""
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Earráid"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Eolas Breise"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Díshuiteáil"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ná Déan"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Déan"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "OK"

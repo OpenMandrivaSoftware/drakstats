@@ -1,0 +1,238 @@
+# drakstats-fi - Finnish Translation
+#
+# Copyright (C) 2005 Free Software Foundation, Inc.
+#
+# Thomas Backlund <tmb@mandrake.org>, 2005.
+# Thomas Backlund <tmb@mandriva.org>, 2005.
+# Jani Välimaa <jani.valimaa@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-fi\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2009-04-21 17:28+0300\n"
+"Last-Translator: Jani Välimaa <jani.valimaa@gmail.com>\n"
+"Language-Team: Finnish <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Työkalu RPM-pakettien käyttötilastojen raportointiin"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Etsi:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Käytä suodatinta"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Rpm-paketit"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linuxin työkalut"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Pakettitilastot"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Ohje"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Lähetä tilastot"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Lopeta"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paketti"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Käytetty viimeksi (päivää sitten)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Viimeisin käytetty tiedosto"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Ohjelma"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Käytetty (päivän sisällä)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Varoitus"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Jos asetus <noatime> on asetettu /- tai /usr-osiolle, voi drakstats "
+"ilmoittaa virheellisiä tietoja."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Odota hetki"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Luetaan pakettitietokannan tilastoja..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Nimi: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versio: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Jakelu: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Koko: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s Kt"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Yhteenveto: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Kuvaus: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Tiedostot: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Pakettitietoja"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Sulje"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Lähetä tilastot"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Varmistettu: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Hylkää"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Lähetä"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Lähetetään tilastoja..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Virhe"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Tietojen lähetys epäonnistui!\n"
+"Lähetä sähköpostia osoitteeseen cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Lisätietoja"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Poista"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ei"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "OK"
+

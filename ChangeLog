@@ -1,0 +1,1039 @@
+2016-02-06 13:58  Maik Wagner <maiktapwagner at aol.com>
+
+	* Update of: German translation updated in version 0.23
+
+2008-03-30 19:49  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: update
+
+2008-03-29 11:44  unho
+
+	* po/gl.po: update translation for galician
+
+2008-03-29 00:42  unho
+
+	* po/gl.po: update translation for galician
+
+2008-03-25 21:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile, NEWS: 0.19
+
+2008-03-25 21:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update
+
+2008-03-20 22:34  Dotan Kamber <kamberd at yahoo.com>
+
+	* po/he.po: update for Hebrew translation
+
+2008-03-20 22:34  Dotan Kamber <kamberd at yahoo.com>
+
+	* po/he.po: update for Hebrew translation
+
+2008-03-19 02:13  Zé <ze at mandriva.org>
+
+	* po/pt.po: update
+
+2008-03-17 23:35  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+
+	* po/cs.po: Update Czech translation.
+
+2008-03-14 11:05  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/Makefile: (update_n_merge) split it out of (merge) ; now
+	  (merge) only update po w/o updating main pot file
+
+2008-02-16 12:04  Christophe Berthelé <cpjc at free.fr>
+
+	* po/eo.po: Add eo.po for drakstats in svn
+
+2008-02-06 02:09  Jure Repinc
+
+	* po/sl.po: Updated Slovenian translation
+
+2008-01-24 22:15  Zé <ze at mandriva.org>
+
+	* po/pt.po: update
+
+2008-01-21 16:32  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2007-10-01 17:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update
+
+2007-10-01 17:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile, NEWS: 0.18
+
+2007-10-01 17:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: standard changelog rules
+
+2007-10-01 17:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update
+
+2007-10-01 17:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile, NEWS: 0.18
+
+2007-10-01 17:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: standard changelog rules
+
+2007-10-01 17:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: standard changelog rules
+
+2007-09-28 01:35  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Update Indonesian Translations
+
+2007-09-25 20:36  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile, NEWS: 0.17
+
+2007-09-24 20:10  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+
+	* po/pt_BR.po: pt_BR fixes
+
+2007-09-24 20:10  cavassin
+
+	* po/pt_BR.po: pt_BR fixes
+
+2007-09-20 02:40  mmodem
+
+	* po/pt.po: up
+
+2007-09-15 15:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: drop now useless "local" prefix
+
+2007-09-15 15:17  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (buildrpm,localrpm) drop RPM building targets that do
+	  no more work since spec is now in repsys
+
+2007-09-15 15:16  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: simplify using "svn export"
+
+2007-09-15 15:15  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (localcopy) adapt to SVN
+
+2007-08-22 14:16  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile, NEWS: 0.16
+
+2007-08-22 14:11  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: use maintainers.mandriva.com instead of qa (#32751)
+
+2007-08-22 14:10  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: really use soap_server variable
+
+2007-06-15 09:47  ybando
+
+	* po/ja.po: fixing email address of Japanese translation team.
+
+2007-06-14 09:46  ybando
+
+	* po/ja.po: Japanese translation reviewed.
+
+2007-05-21 10:20  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile, NEWS, drakstats: 0.15
+
+2007-05-21 10:19  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS: add 0.14 news entry
+
+2007-05-21 10:01  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats, po/af.po, po/am.po, po/ar.po, po/bg.po, po/bn.po,
+	  po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/de.po, po/drakstats.pot, po/el.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po,
+	  po/it.po, po/ja.po, po/ka.po, po/ku.po, po/ky.po, po/lt.po,
+	  po/mk.po, po/ms.po, po/nb.po, po/nl.po, po/pa_IN.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po,
+	  po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/th.po,
+	  po/tl.po, po/uk.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po:
+	  replace daouda mail with cooker@mandrivalinux.org
+
+2007-05-21 09:58  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: add back previous i18n message
+
+2007-05-21 09:47  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: make error message more explicit and remove hardcoded
+	  daouda mail (will break translations, but it's probably better
+	  than a wrong error message)
+
+2007-05-21 09:46  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: do not crash when stats upload fails
+
+2007-05-21 09:45  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: more transientness fixes
+
+2007-04-25 05:21  adamw
+
+	* Makefile: - install fd.o-compliant icons
+
+2007-04-24 20:05  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS: fix bug number
+
+2007-04-24 20:04  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile, NEWS, drakstats: 0.13
+
+2007-04-24 20:02  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS: add NEWS file
+
+2007-04-24 20:01  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats.spec: remove spec file (now in /packages SVN)
+
+2007-04-24 20:00  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: hardcode version and drop CVS specific targets
+
+2007-04-24 19:54  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats: do not crash when sending stats (by using "new" ugtk2
+	  API, #2964)
+
+2007-02-23 13:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/br.po: plural-form
+
+2007-02-21 12:52  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bn.po: updated Bengali file
+
+2007-01-22 15:23  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po,
+	  po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po,
+	  po/et.po, po/eu.po, po/fa.po, po/fi.po, po/gl.po, po/he.po,
+	  po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po,
+	  po/ja.po, po/ka.po, po/lt.po, po/mk.po, po/nb.po, po/nl.po,
+	  po/pa_IN.po, po/pl.po, po/sc.po, po/sk.po, po/sl.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/ta.po, po/th.po, po/uk.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: adapted to plural-forms
+
+2006-09-15 22:29  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (install) do not try to strip perl script
+
+2006-09-15 22:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* drakstats.spec: 0.12-1mdv2007.0
+
+2006-09-15 22:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* drakstats.spec: use %mkrel
+
+2006-09-15 22:27  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* drakstats.spec: add XDG menu entry
+
+2006-09-12 13:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bs.po: updated Bosnian file
+
+2006-09-01 23:52  mmodem
+
+	* po/pt.po: *** empty log message ***
+
+2006-03-20 10:26  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/el.po: updated po file
+
+2006-02-05 17:22  berthy
+
+	* po/fr.po: Update french translation
+
+2006-02-05 09:47  Funda Wang <fundawang at linux.net.cn>
+
+	* po/it.po: Updated Italian translations from Andrea Celli
+	  <andrea.celli@libero.it>.
+
+2006-02-01 12:52  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ta.po: Added Tamil file
+
+2006-02-01 12:36  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hr.po: updated po file
+
+2005-11-30 10:29  Olivier Blin <oblin at mandriva.com>
+
+	* po/Makefile: remove useless prefix definition
+
+2005-11-30 10:23  Olivier Blin <oblin at mandriva.com>
+
+	* drakstats.spec, po/Makefile: install locales in /usr/share, not
+	  /share
+
+2005-10-26 20:21  Albert Astals Cid <astals11 at terra.es>
+
+	* po/ca.po: Update by Tici� reviewed by me
+
+2005-10-25 14:44  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po: updated po file
+
+2005-10-24 00:46  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated Contact Info
+
+2005-10-12 08:07  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ku.po: updated po file
+
+2005-10-06 14:36  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hi.po: updated po file
+
+2005-10-01 15:10  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: Small consistency changes
+
+2005-09-20 20:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tg.po: updated po file
+
+2005-09-18 21:28  Reinout van Schouwen <reinout at cs.vu.nl>
+
+	* po/nl.po: * Sep 18 2005 Reinout van Schouwen <reinout@cs.vu.nl>
+	  Updated Dutch translation
+
+2005-09-16 15:04  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sc.po: updated po file
+
+2005-09-15 09:07  neoclust
+
+	* po/it.po: Updated Italian translation from Giuseppe
+
+2005-09-14 21:33  neoclust
+
+	* po/it.po: Updated Italian translation from Giuseppe
+
+2005-09-11 20:44  Thomas Backlund <tmb at mandrake.org>
+
+	* po/fi.po: Updated translations, fully translated, was 1
+	  untranslated.
+
+2005-09-08 18:22  Tibor Pittich <Tibor.Pittich at phuture.sk>
+
+	* po/sk.po: updated slovak translation
+
+2005-09-07 17:51  Funda Wang <fundawang at linux.net.cn>
+
+	* po/sl.po: Updated sl translation from
+	  Gregor.Pirnaver@mandrakeprinas.org
+
+2005-09-07 14:30  Funda Wang <fundawang at linux.net.cn>
+
+	* po/hi.po: Updated hi translation from Dhananjaya Sharma
+	  <dysxhi@yahoo.co.in>.
+
+2005-09-07 11:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: update (neoclust)
+
+2005-09-01 13:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sl.po: updated pot file
+
+2005-08-22 21:11  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2005-08-16 09:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sv.po: updated po file
+
+2005-08-11 14:54  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+
+	* po/cs.po: Updated Czech translations.
+
+2005-08-08 09:53  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pl.po: updated po file
+
+2005-08-08 07:44  Pavel Maryanov <acid_jack at ukr.net>
+
+	* po/ru.po: updated translation
+
+2005-08-04 01:47  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: header correction in uk.po
+
+2005-08-02 00:45  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: uk tr-ion update
+
+2005-07-18 06:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/fa.po, po/hi.po, po/pa_IN.po, po/tg.po, po/wa.po:
+	  updated po files
+
+2005-07-18 06:09  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/de.po: updated po file
+
+2005-07-01 23:27  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-06-29 08:35  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eu.po, po/gl.po: updated po files
+
+2005-06-19 16:08  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: Updates and lots of speling corrected
+
+2005-06-14 01:31  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-06-02 15:52  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: Tidy up fuzzy messages
+
+2005-06-01 05:39  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated
+
+2005-05-31 08:09  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated
+
+2005-05-28 00:00  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-05-27 02:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ky.po: updated po file
+
+2005-05-14 11:58  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_CN.po: Updated Simplified Chinese translation
+
+2005-05-11 03:17  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ja.po, po/vi.po: updated po files
+
+2005-05-07 14:44  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats.spec: - switch to Mandriva
+
+2005-05-07 14:43  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats.spec: - remove Packager tag
+
+2005-05-07 14:41  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats.spec: - mandriva switch
+
+2005-05-03 04:49  Marek Laane <bald at starman.ee>
+
+	* po/et.po: Estonian translation updated.
+
+2005-04-30 12:56  aiet
+
+	* po/ka.po: *** empty log message ***
+
+2005-04-25 09:09  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po, po/lt.po: updated po file
+
+2005-04-25 07:36  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-04-22 01:31  Dovix <dovix2003 at yahoo.com>
+
+	* po/he.po: *** empty log message ***
+
+2005-04-20 15:40  Per Øyvind Karlsen <peroyvind at mandriva.org>
+
+	* po/nb.po: Translate latest strings
+
+2005-04-19 14:13  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-04-19 13:43  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/es.po, po/hr.po: Added Croatian file; updated Spanish file
+
+2005-04-19 13:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mk.po: updated po file
+
+2005-04-19 09:50  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+	  indexhtml/po/da.po soft/drakstats/po/da.po
+	  soft/mdkonline/po/da.po gi/perl-install/share/po/da.po
+
+2005-04-18 07:32  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/wa.po: updated po file
+
+2005-04-14 19:31  José JORGE <jjorge at free.fr>
+
+	* po/pt.po: melo
+
+2005-04-14 14:41  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: sync'ed with Arabeyes CVS
+
+2005-04-14 12:01  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated
+
+2005-04-14 11:28  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: *** empty log message ***
+
+2005-04-14 09:26  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: updated po files
+
+2005-04-13 14:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* drakstats, po/af.po, po/am.po, po/ar.po, po/bg.po, po/bn.po,
+	  po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/de.po, po/drakstats.pot, po/el.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hu.po, po/id.po, po/is.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ku.po, po/lt.po, po/mk.po, po/ms.po,
+	  po/nb.po, po/nl.po, po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po,
+	  po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/tg.po, po/th.po, po/tl.po, po/uk.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: changed Mandrake -> Mandriva
+
+2005-04-12 23:43  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ky.po: Added Kirghiz file
+
+2005-04-02 15:36  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-04-01 23:02  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/lt.po: Added Lithuanian file
+
+2005-03-30 21:05  Thomas Backlund <tmb at mandrake.org>
+
+	* po/fi.po: First translation, fully translated, was 39
+	  untranslated.
+
+2005-03-29 19:48  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pa_IN.po, po/pl.po: Added Polish file
+
+2005-03-26 22:55  José JORGE <jjorge at free.fr>
+
+	* po/pt.po: melo
+
+2005-03-24 18:07  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_CN.po: Corrected a typo
+
+2005-03-14 14:43  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats.spec: - po updates
+
+2005-03-12 02:26  Per Øyvind Karlsen <peroyvind at mandriva.org>
+
+	* po/nb.po: minor drakstats fixes
+
+2005-03-09 15:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: remove belgicism (should be in fr_BE.po if you really
+	  want it...)
+
+2005-03-09 15:02  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: fix missing "..." in french translation
+
+2005-03-08 17:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* drakstats: (compute_stats) fix wait message's title
+
+2005-03-08 16:42  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* drakstats: bump copyright header
+
+2005-03-08 15:48  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: fix banner title (strict translation)
+
+2005-03-08 15:47  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2005-03-08 15:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2005-03-07 13:33  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/de.po: updated po file
+
+2005-02-28 11:13  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: QA for Arabic
+
+2005-02-23 17:39  Pablo Saratxaga <pablo at mandriva.com>
+
+	* ChangeLog: converted to UTF-8
+
+2005-02-23 13:27  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pa_IN.po: Added Punjabi file
+
+2005-02-23 13:02  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/gl.po: Added Galician file
+
+2005-02-22 15:07  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: new file - ukrainian l10n
+
+2005-02-22 14:32  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats.spec: display warning when noatime is set on / or /usr
+	  partition (better check)
+
+2005-02-22 14:28  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: - remove debugging
+
+2005-02-22 14:14  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: - use any
+
+2005-02-22 13:19  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: - cosmetics
+
+2005-02-22 13:18  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: - new string for noatime option
+
+2005-02-22 13:09  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats.spec: - fix noatime check (die if drakstats would
+	  display non useful infos)
+
+2005-02-22 13:08  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: - fix noatime Re checks
+
+2005-02-22 12:56  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: -s/map/foreach/
+
+2005-02-22 12:43  Daouda Lo <daouda at mandriva.com>
+
+	* drakstats: - die if noatime is set
+
+2005-02-21 18:29  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2005-02-21 18:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* drakstats.spec: 0.10-1mdk
+
+2005-02-16 15:01  aiet
+
+	* po/ka.po: Translated new strings
+
+2005-02-16 01:23  Youcef Rabah Rahal <rahal@arabeyes.org>
+
+	* po/ar.po: Arabic translation (sync with arabeyes CVS)
+
+2005-02-15 19:13  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* po/ga.po: update
+
+2005-02-15 11:06  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/: af.po, is.po: Added Afrikaans and Icelandic files
+
+2005-02-14 18:04  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/drakstats.pot: updated pot file
+
+2005-02-14 17:25  Per Øyvind Karlsen <peroyvind@linux-mandrake.com>
+
+	* po/nb.po: More corrections by me
+
+2005-02-14 16:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* drakstats, po/am.po, po/ar.po, po/bg.po, po/bn.po, po/br.po,
+	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
+	  po/el.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fr.po,
+	  po/ga.po, po/he.po, po/hi.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ku.po, po/mk.po, po/nb.po, po/nl.po, po/pt.po,
+	  po/pt_BR.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/tg.po, po/th.po, po/tl.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: typo fixes (Arpad Biro)
+
+2005-02-14 16:18  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/vi.po: Added Vietnamese files
+
+2005-02-13 22:42  Reinout van Schouwen <reinout@cs.vu.nl>
+
+	* po/nl.po: Updated Dutch (nl) translation by Reinout van Schouwen
+	  <reinout@cs.vu.nl> * drakstats
+
+2005-02-12 21:58  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - fix description length
+
+2005-02-12 21:56  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - po updates
+
+2005-02-12 21:55  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: change description to less scary one (wildman)
+
+2005-02-11 15:20  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - correct description to less frightenin words
+
+2005-02-11 14:25  Youcef Rabah Rahal <rahal@arabeyes.org>
+
+	* po/ar.po: Arabic translation
+
+2005-02-10 23:55  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/it.po: Added Italian file
+
+2005-02-10 19:30  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* drakstats, po/am.po, po/ar.po, po/bg.po, po/bn.po, po/br.po,
+	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
+	  po/drakstats.pot, po/el.po, po/es.po, po/et.po, po/eu.po,
+	  po/fa.po, po/fr.po, po/ga.po, po/he.po, po/hi.po, po/hu.po,
+	  po/id.po, po/ja.po, po/ku.po, po/mk.po, po/nb.po, po/pt.po,
+	  po/pt_BR.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/tg.po, po/th.po, po/tl.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: changed "Refresh Stats" -> "Refresh"
+	  (we are in string freeze, we can get translations for "Refresh"
+	  for other modules, "Refresh Stats" is untranslated).	Added Thai
+	  language file
+
+2005-02-10 01:38  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - SBINDIR
+
+2005-02-10 01:38  Daouda Lo <daouda@mandrakesoft.com>
+
+	* Makefile: SBINDIR
+
+2005-02-10 01:35  Daouda Lo <daouda@mandrakesoft.com>
+
+	* Makefile:  SBINDIR
+
+2005-02-10 01:35  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - sbindir
+
+2005-02-10 01:33  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - run as root
+
+2005-02-10 01:33  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - run as root, useless otherwise
+
+2005-02-10 01:27  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - remove unused package through rpmdrake
+	  (--search option) - preload cache file to decrease startup time
+	  load - Explicitly 'compute stats' - drakstats is partly useless
+	  when noatime set on / or /usr - po updates
+
+2005-02-10 01:26  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - code for noatime
+
+2005-02-10 00:53  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - don't recompute at start up when /var/log/drakstats
+	  exists
+
+2005-02-09 20:08  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/sl.po: Added Slovenian file
+
+2005-02-09 18:33  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/pt_BR.po: Added Brazilian file
+
+2005-02-08 23:20  Arpad Biro <biro_arpad@yahoo.com>
+
+	* po/hu.po: [no log message]
+
+2005-02-08 23:06  Per Øyvind Karlsen <peroyvind@linux-mandrake.com>
+
+	* po/nb.po: finished translations from eskild:)
+
+2005-02-07 21:20  shivahuang
+
+	* po/zh_TW.po: Added Traditional Chinese translation
+
+2005-02-07 20:17  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/ku.po: Added Kurdish file
+
+2005-02-07 20:06  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/fa.po: Added Farsi file
+
+2005-02-06 22:36  mbukovjan
+
+	* po/cs.po: Updated Czech translations.
+
+2005-02-05 23:35  Albert Astals Cid <astals11@terra.es>
+
+	* po/ca.po: Update drakstats
+
+2005-02-05 13:22  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/bn.po: Added Bengali file
+
+2005-02-03 10:10  Alice Lafox <alice@lafox.com.ua>
+
+	* po/ru.po: added ru translation
+
+2005-02-02 20:21  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/tl.po: Added Filipino file
+
+2005-02-02 17:06  vljubovic
+
+	* po/bs.po: Adding Bosnian translation...
+
+2005-02-02 16:56  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/tg.po: Added Tajik file
+
+2005-02-02 10:58  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/da.po: converted to utf-8
+
+2005-02-02 10:21  Youcef Rabah Rahal <rahal@arabeyes.org>
+
+	* po/ar.po: Arabic translation
+
+2005-02-01 20:23  Tibor Pittich <Tibor.Pittich@phuture.sk>
+
+	* po/sk.po: updated slovak translation
+
+2005-02-01 17:58  Tibor Pittich <Tibor.Pittich@phuture.sk>
+
+	* po/sk.po: initial import of slovak translation
+
+2005-02-01 15:21  mareklaane
+
+	* po/et.po: Initial translation.
+
+2005-02-01 14:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* po/ga.po: update
+
+2005-01-31 20:20  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/sc.po: Added Sardinian file
+
+2005-01-30 19:02  Keld Jørn Simonsen <keld@dkuug.dk>
+
+	* po/da.po: updates soft/drakstats/po/da.po
+
+2005-01-30 03:48  Keld Jørn Simonsen <keld@dkuug.dk>
+
+	* po/da.po: updates soft/drakstats/po/da.po
+
+2005-01-28 07:54  Dovix <dovix2003@yahoo.com>
+
+	* po/he.po: [no log message]
+
+2005-01-28 06:16  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/fr.po: updated po files
+
+2005-01-28 05:51  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/: am.po, id.po, sr.po, sr@Latn.po: Added new translations
+
+2005-01-28 01:34  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/bg.po: Added Bulgarian file
+
+2005-01-27 21:48  José JORGE <jjorge@free.fr>
+
+	* po/pt.po: melo
+
+2005-01-27 21:42  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/de.po: Added German file
+
+2005-01-27 18:10  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/ja.po: updated po file
+
+2005-01-27 16:41  Keld Jørn Simonsen <keld@dkuug.dk>
+
+	* po/da.po: updates soft/control-center/po/da.po
+	  gi/perl-install/share/po/da.po soft/drakstats/po/da.po
+
+2005-01-26 18:28  Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com>
+
+	* drakstats.spec: Fix typo in description
+
+2005-01-26 15:07  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/es.po: updated po file
+
+2005-01-26 14:58  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/: eu.po, hi.po: Added Hindi file; updated Basque file
+
+2005-01-26 10:00  José JORGE <jjorge@free.fr>
+
+	* po/pt.po: add drakstats pt.po
+
+2005-01-25 20:21  Albert Astals Cid <astals11@terra.es>
+
+	* po/ca.po: First translation
+
+2005-01-25 13:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* po/br.po: initial release
+
+2005-01-25 13:33  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/sv.po: Added Swedish file
+
+2005-01-25 13:26  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/el.po: Added Greek file
+
+2005-01-25 09:55  Funda Wang <fundawang@linux.net.cn>
+
+	* po/zh_CN.po: Added Simplified Chinese translation
+
+2005-01-24 20:01  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/ja.po: Added Japanese file
+
+2005-01-24 19:25  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/es.po: Added Spanish file
+
+2005-01-24 19:16  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/mk.po: Added Macedonian file
+
+2005-01-24 11:59  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/cy.po: Added Welsh file
+
+2005-01-24 11:38  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* po/eu.po: Added Basque file
+
+2005-01-23 15:18  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* drakstats, po/Makefile, po/drakstats.pot, po/fr.po, po/wa.po:
+	  Added po/Makefile file, added Walloon translation; fixed French
+	  translation (header was missing); corrected distribution name
+	  (Mandrake -> Mandrakelinux) and French language particularities
+	  in English strings (in English there isn't a space before colon)
+
+2005-01-23 13:19  Daouda Lo <daouda@mandrakesoft.com>
+
+	* icons/drakstats_banner.png: add banner icon
+
+2005-01-22 23:11  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - po update
+
+2005-01-22 23:04  Daouda Lo <daouda@mandrakesoft.com>
+
+	* po/fr.po: update po
+
+2005-01-22 20:59  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec:  add --root option rpmdrake-remove call (Thanx to
+	  Moshe Caspi)
+
+2005-01-22 20:58  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats.spec: - add --root option rpmdrake-remove call (Thanx
+	  to Moshe Caspi)
+
+2005-01-22 20:57  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - use rpmdrake-remove --root
+
+2005-01-21 20:29  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - typo fix
+
+2005-01-21 20:26  Daouda Lo <daouda@mandrakesoft.com>
+
+	* Makefile: - create needed dir
+
+2005-01-21 20:24  Daouda Lo <daouda@mandrakesoft.com>
+
+	* Makefile, drakstats: - fix typo
+
+2005-01-21 20:24  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - drakstat banner
+
+2005-01-21 20:22  Daouda Lo <daouda@mandrakesoft.com>
+
+	* Makefile: - new banner
+
+2005-01-21 20:17  Daouda Lo <daouda@mandrakesoft.com>
+
+	* po/: drakstats.pot, fr.po: po files
+
+2005-01-21 20:16  Daouda Lo <daouda@mandrakesoft.com>
+
+	* drakstats: - perl_checker fix
+
+2005-01-21 19:50  Daouda Lo <daouda@mandrakesoft.com>
+
+	* icons/drakstats16.png, icons/drakstats32.png,
+	  icons/drakstats48.png, COPYING, Makefile, README, drakstats,
+	  drakstats.spec: added icons
+

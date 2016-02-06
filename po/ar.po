@@ -1,0 +1,237 @@
+# translation of ar.po to Arabic
+# Copyright (C) 2005, 2009 Free Software Foundation, Inc.
+#
+# Youcef Rabah Rahal <rahal@arabeyes.org>, 2005.
+# Ossama M. Khayat <okhayat@yahoo.com>, 2005.
+# Ma'moun Diraneyya <mamoun.diraneyya@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ar\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2009-04-20 13:45+0300\n"
+"Last-Translator: Ma'moun Diraneyya <mamoun.diraneyya@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "أداة تقرير إحصائيات حزم Rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "ابحث:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "طبّق المرشّح"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "حزم Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "أدوات لينكس ماندريفا"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "إحصائيات الحزم"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "أنعِش"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "مساعدة"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "ابعث الإحصائيات"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "اخرج"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "الحزمة"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "لم تستعمل منذ (أيّام)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "آخر نفاذ للملف"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "التطبيقات"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "استُعملت خلال (أيّام)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "الملخّص"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "تحدير"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"لقد عُيِّن خيار <noatime> على قسمك / أو /usr، لذا ربما لا تكون معلومات "
+"إحصائيات‌دراك المُزوَّدة بشأن وقت النفاذ إلى الملف ذا صلة."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "فضلاً انتظر"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "إحصائيات قاعدة بيانات الحزم تُقرأ..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "الاسم: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "النّسخة: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "الإصدارة: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "الحجم: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s ك.ب"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "الملخّص: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "الوصف: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "الملفّات: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "معلومات الحزمة"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "أغلق"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "ابعث الإحصائيات"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "وثَّقها: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "ابعث"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "الإحصائيات تُبعث..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "خطأ"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"فشل بعث البيانات !\n"
+" أرسل رسالة بريدية إلى cooker@mandrivalinux.org من فضلك"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "مزيد من العلومات"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "أزل التّثبيت"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "لا"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "نعم"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "موافق"
+

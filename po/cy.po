@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Rhoslyn Prys <post@meddal.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-cy\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-04-25 09:01-0000\n"
+"Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
+"Language-Team: Cymraeg/Welsh <post@meddal.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Welsh\n"
+"X-Poedit-Country: UK\n"
+"Plural-Forms: nplurals=2; plural=(n == 2) ? 1 : 0;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Offeryn adrodd ystadegau rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Chwilio:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Gosod hidl"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Pecynnau rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Offer Mandriva Linux"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Ystadegau Pecynnau"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Adnewyddu"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Cymorth"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Anfon Ystadegau"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Gadael"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pecyn"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Heb ddefnyddio ers(diwrnod)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Mynediad i ffeil diwethaf"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Rhaglen"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Defnyddiwyd o fewn(diwrnod)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Crynodeb"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Rhybudd"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Mae'r dewis <noatime> wedi ei osod ar eich rhaniad / or /usr, felly gall fod "
+"y wybodaeth sy'n cael ei ddarparu gan drakstats am amser mynediad at feiliau "
+"fod yn amherthnasol."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Arhoswch"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Darllen ystadegau cronfa ddata pecynnau..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Enw: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Fersiwn: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Ryddhad: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Maint: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Crynodeb: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Disgrifiad: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Ffeiliau: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Gwyb. Pecyn"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Cau"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Anfon ystadegau"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Dilyswyd gan: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Diddymu"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Anfon"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Anfon ystadegau..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Gwall"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Methodd anfon data!\n"
+"  anfonwch e-bost at cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Mwy o Wybodaeth"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Dadosod"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Na"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Iawn"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Iawn"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Statws"

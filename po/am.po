@@ -1,0 +1,234 @@
+# Latest versions of po files are at http://www.mandrivalinux.com/l10n/am.php3
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Alemayehu Gemeda <alemayehu@gmx.at>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-am\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-01-27 23:43+0100\n"
+"Last-Translator: Alemayehu <alemayehu@gmx.at>\n"
+"Language-Team: Amharic <am-translate@geez.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "የRpm ሁኔታዎች ዘገባ መሳሪያ"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "ፈልግ:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "ማጣሪያ ተጠቀም"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "የRpm ጥቅልሎች"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "የMandriva Linux መሳሪያዎች"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "የጥቅልሎች ሁኔታ"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "በድጋሚ ጀምር"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "እርዳታ"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "ሁሌታዎችን ላክ"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "ውጣ"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "ጥቅል"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "ከ...ጀምሮ ጥቅም ላይ አልዋለም(ቀናት)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "ለመጨረሻ ጊዜ ፋይሉ የተጀመረው"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "መጠቀሚያ ፕሮግራም"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "በ...(ቀናት) ውስጥ ጥቅም ላይ ውሏል"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "ማጠቃለያ"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "ማስጠንቀቂያ"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "እባክዎ ይጠብቁ"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "የጥቅሎችን ዳታቤዝ በማንበብ ላይ..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "ስም: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "ዝርያ: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "ለቀቃ: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "መጠን: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "ማጠቃለያ: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "መግለጫ: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "ፋይሎች: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "የጥቅል መረጃ"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "ዝጋ"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "ሁሌታዎችን ላክ"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "የተረጋገጠው በ:"
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "ተወው"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "ላክ"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "ሁሌታዎችን በመላክ ላይ..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "ስህተት"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"መረጃ መላክ ከሸፈ!\n"
+" እባክዎ ለcooker@mandrivalinux.org ኢሜይል ይላኩ"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "ተጨማሪ መረጃዎች"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "አፍርስ"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "አይ"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "አዎ"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "እሺ"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "ሁኔታ"

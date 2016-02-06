@@ -1,0 +1,234 @@
+# Japanese translation of drakstats
+# Copyright (C) 2005-2007 Free Software Foundation, Inc.
+# Yukiko BANDO <ybando@k6.dion.ne.jp>, 2005-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2007-06-14 18:00+0900\n"
+"Last-Translator: Yukiko BANDO <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "RPM 使用状況報告ツール"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "検索:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "フィルタを適用"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM パッケージ"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux ツール"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "パッケージの使用状況"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "更新"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "ヘルプ"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "使用状況を送信"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "終了"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "パッケージ"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "最終使用日からの日数"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "最後に使用したファイル"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "アプリケーション"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "何日以内に使用"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "要約"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"/ または /usr パーティションに <noatime> オプションが設定されています。した"
+"がって、drakstats が提供するファイルアクセス時間に関する情報は無意味かもしれ"
+"ません。"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "お待ちください"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "データベースから使用状況を読み込み中..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "名前: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "バージョン: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "リリース: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "サイズ: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "要約: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "説明: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "ファイル: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "パッケージ情報"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "閉じる"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "使用状況を送信"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "認証者: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "送信"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "使用状況を送信中..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "エラー"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"データの送信に失敗しました。\n"
+"cooker@mandrivalinux.org にメールを送ってください。"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "詳細情報"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "アンインストール"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "いいえ"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "はい"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "OK"

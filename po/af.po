@@ -1,0 +1,233 @@
+# translation of drakstats-af.po to Afrikaans
+# translation of drakstats.po to Afrikaans
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Die uwe Ysbeer <ysbeer@af.org.za>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-af\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-02-14 20:43+0000\n"
+"Last-Translator: Die uwe Ysbeer <ysbeer@af.org.za>\n"
+"Language-Team: Afrikaans <i18n@af.org.za>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "RPM-statistiekverslagprogram"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Soek:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Pas filter toe"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM-pakkette"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux nutsprogramme"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Pakkette statistiek"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Verfris"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Hulp"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Stuur statistiek"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Verlaat"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pakket"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Nie gebruik sedert (dae)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Laaste lêer besoek"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Applikasie"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Gebruik binne (dae)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Opsomming"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Waarskuwing"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Wag asb."
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Lees pakketdatabasisstatistiek..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Naam: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Weergawe: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Vrystelling: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Grootte: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Opsomming: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Beskrywing: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Lêers: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Pakketinligting"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Maak toe"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Stuur statistiek"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Gemagtig deur:  "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Kanselleer"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Stuur"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Statistiek word gestuur..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Fout"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Data versending het gefaal!\n"
+" stuur asb. e-pos aan cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Meer informasie"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Verwyder"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Nee"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ja"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Goed"

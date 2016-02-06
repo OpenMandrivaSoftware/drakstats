@@ -1,0 +1,237 @@
+# translation of drakstats-tg.po to Tajik
+# translation of drakstats.po to Tajik
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# 2005, Khujand Computer Technologies, Inc
+# 2005, Youth opportunities, NGO
+# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-tg\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-09-17 15:55+0500\n"
+"Last-Translator: Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
+"Language-Team: Tajik\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Асбоби ҳисоботии статистикаи Rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Ҷустуҷӯ:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Қабул намудани филтр"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Қуттиҳои Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Асбобҳои Мандрива линукс"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Статистикаи қуттиҳо"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Нав намудан"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Роҳнамо"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Статистикаи фиристодан"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Баромадан"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Қуттиҳо"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Истифода накарда буд (рӯзҳо)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Истифодаи охирини файл"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Барнома"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Давомоти истифода (рӯзҳо)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Резюме"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Огоҳӣ"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Интихоби <noatime> дар қисми /  ё /usr танзим карда шуд, ахбороте, ки бо "
+"пуштибонии drakstats дар бораи вақти дастрасии файл нишон медиҳад, мумкин "
+"аст номуносиб мебошад"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Лутфан интизор шавед"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Хондани статистикаи додаҳои базаи қуттиҳо..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Ном: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Ривоят: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Релиз: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Андоза: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s КБ"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Резюме: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Тасвирот: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Файлҳо: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Ахбороти қуттиҳо"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Пӯшидан"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Статистикаи фиристодан"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Муаллифӣ бо: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Фиристодан"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Фиристодани статистика..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Хато"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Фиристодани қуттиҳо нашуд!\n"
+" Почтаи электронӣ ба cooker@mandrivalinux.org бифиристед"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Бисёре ахборот"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Нобуд сохтан"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Не"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ҳа"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"

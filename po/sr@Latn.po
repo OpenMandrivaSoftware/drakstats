@@ -1,0 +1,237 @@
+# translation of drakstats-sr.po to 
+# translation of drakstats.po to 
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Tomislav Jankovic <tomaja@net.yu>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats-sr\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2005-01-27 00:28+0100\n"
+"Last-Translator: Tomislav Jankovic_<tomaja@net.yu>\n"
+"Language-Team: Serbian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Alat za pregledanje RPM statistike"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Traži:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Primeni filter:"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM paketi:"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux alati"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Statistika paketa"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Osveži"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Pomoć"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Pošalji statistiku"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Izlaz"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Paket"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Nije korišćen (dana)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Poslednja korišćena datoteka"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Aplikacija"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Korišćena u proteklih (dana)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Zbirni pregled"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Samo momenat..."
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Čitam statistiku baze paketa..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Ime: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Vezrija: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Izdanje: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Veličina: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Zbirni pregled: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Opis: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Datoteke: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Informacije o paketu:"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Zatvori"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Pošalji statistiku"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Autorizovao:"
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Poništi"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Pošalji"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Statistika se šalje..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Greška"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Slanje podataka nije uspelo!\n"
+"molim pošaljite poruku na cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Još informacija"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Deinstaliraj"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ne"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Da"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Status"

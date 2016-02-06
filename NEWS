@@ -1,0 +1,38 @@
+0.23.1:
+- updated translation
+
+0.23:
+- updated translation
+
+0.22:
+- updated translation
+
+0.21:
+- updated translation
+
+0.20:
+- updated translation
+
+0.19:
+- updated translation
+
+0.18:
+- updated translation
+
+0.17:
+- updated translation
+
+0.16:
+- use maintainers.mandriva.com instead of qa (#32751)
+
+0.15:
+- more transientness fixes (#29649)
+- do not crash when stats upload fails
+- make upload error message more explicit
+- replace daouda mail with cooker@mandrivalinux.org
+
+0.14:
+- install fd.o-compliant icons
+
+0.13:
+- do not crash when sending stats (#29649)

@@ -1,0 +1,239 @@
+# translation of drakstats-uk.po to
+# $Id: uk.po 266800 2010-03-14 13:13:28Z btr0001 $
+# translation of drakstats.po to ukrainian
+# Copyright (C) 2005, 2008 Free Software Foundation, Inc.
+#
+# Taras Boychuk <btr1@ukrpost.net>, 2005.
+# Taras Boychuk <btr0001@ukr.net>, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: drakstats\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2010-03-10 17:33-0500\n"
+"Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "Інструмент підрахунку статистики rpm"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Шукати:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Використати фільтр"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "Пакунки Rpm"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Інструменти Мандріва Лінакс"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Статистика пакунків"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Поновити"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Довідка"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Відіслати статистику"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Вийти"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Пакунок"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Не використовується (днів)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Останній використаний файл"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Програма"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Використовується (днів)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Підсумок"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Попередження"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Для розділу / або /usr встановлено параметр <noatime>, інформація "
+"про час доступу, надана drakstats, бути неправильною"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Зачекайте, будь ласка"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Читається база даних статистики пакунків..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Назва: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Версія: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Збірка: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Розмір: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s кБ"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Підсумок: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Опис: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Файли: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Інформація про пакунок"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Закрити"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Відіслати статистику"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Автентифіковано: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Відіслати"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Відсилається статистика..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Помилка"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"Відсилання даних завершилося невдало!\n"
+" Будь ласка, надішліть листа на cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Додаткова інформація"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Вилучити"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Ні"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Так"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Гаразд"
+
+

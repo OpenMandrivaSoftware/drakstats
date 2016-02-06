@@ -1,0 +1,238 @@
+# Bangla Translation of Drakpstats.po.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Jamil Ahmed <jamil@bengalinux.org>, 2005.
+# Tisa Nafisa <tisa_nafisa@yahoo.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drakstats VERSION\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2007-02-14 23:23+0600\n"
+"Last-Translator: Tisa Nafisa <tisa_nafisa@yahoo.com>\n"
+"Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "আরপিএম পরিসংখ্যান রিপোর্ট টুল"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "সন্ধান:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "ফিল্টার প্রয়োগ"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "আরপিএম প্যাকেজ সমুহ"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "ম্যান্ড্রেকলিনাক্স টুলস"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "প্যাকেজ পরিসংখ্যান সমুহ"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "পুনরায় প্রদর্শন করো"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "সহায়িকা"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "পরিসংখ্যান সমুহ পাঠাও"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "প্রস্থান"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "প্যাকেজ"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "এর থেকে ব্যবহৃত হয়নি(দিন)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "সর্বশেষ ফাইল ব্যবহৃত হয়েছে"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "অ্যাপলিকেশন"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "এর মধ্যে ব্যবহৃত(দিন)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "সারসংক্ষেপ"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "সতর্ক বাণী"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"<noatime>  অপশন আপনার / or /usr পার্টিশনে সেট করা হয়েছে, ফাইল প্রবেশাধিকারের "
+"সময় সম্পর্কে drakstats এর দেয়া তথ্য অপ্রাসঙ্গিক হতে পারে"
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "অনুগ্রহ করে অপেক্ষা করুন"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "প্যাকেজ সমুহের ডাটাবেস পরিসংখ্যান পড়ছি.."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "নাম: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "সংস্করণ: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "প্রকাশ: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "আকার: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s কি.বা."
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "সারসংক্ষেপ: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "বর্ণনা: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "ফাইল সমুহ:"
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "প্যাকেজ তথ্য"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "বন্ধ"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "পরিসংখ্যান সমুহ পাঠাও"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "যার দ্বারা পরিচয় প্রমাণ হয়েছে:"
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "বাতিল"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "পাঠাও"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "পরিসংখ্যান পাঠাচ্ছি..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "সমস্যা"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"তথ্য পাঠাতে ব্যর্থ!\n"
+" অনুগ্রহ করে cooker@mandrivalinux.org এ ইমেইল দিন"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "আরও তথ্য"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "আনইনস্টল"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "না"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "ঠিক আছে"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "অবস্থা"

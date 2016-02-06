@@ -1,0 +1,239 @@
+# translation of nb.po to
+# Copyright (C) 2005 Mandriva
+#
+# Eskild Hustvedt <zerodogg@skolelinux.no>, 2005.
+# Per Øyvind Karlsen <peroyvind@mandrivalinux.org>, 2005.
+# Per Øyvind Karlsen <peroyvind@linux-mandrake.com>, 2005.
+# Olav Dahlum <odahlum@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: nb\n"
+"POT-Creation-Date: 2005-04-13 01:27+0200\n"
+"PO-Revision-Date: 2009-04-09 20:27+0200\n"
+"Last-Translator: Olav Dahlum <odahlum@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../drakstats:61
+#, c-format
+msgid "Rpm Stats report tool"
+msgstr "RPM statistikkrapporterings-verktøy"
+
+#: ../drakstats:73
+#, c-format
+msgid "Search:"
+msgstr "Søk:"
+
+#: ../drakstats:76
+#, c-format
+msgid "Apply filter"
+msgstr "Bruk filter"
+
+#: ../drakstats:78
+#, c-format
+msgid "Rpm Packages"
+msgstr "RPM-pakker"
+
+#: ../drakstats:79
+#, c-format
+msgid "Mandriva Linux Tools"
+msgstr "Mandriva Linux-verktøy"
+
+#: ../drakstats:82
+#, c-format
+msgid "Packages Stats"
+msgstr "Pakkestatistikk"
+
+#: ../drakstats:86
+#, c-format
+msgid "Refresh"
+msgstr "Oppfrisk"
+
+#: ../drakstats:95
+#, c-format
+msgid "Help"
+msgstr "Hjelp"
+
+#: ../drakstats:102
+#, c-format
+msgid "Send Stats"
+msgstr "Send statistikk"
+
+#: ../drakstats:107
+#, c-format
+msgid "Quit"
+msgstr "Avslutt"
+
+#: ../drakstats:116
+#, c-format
+msgid "Package"
+msgstr "Pakke"
+
+#: ../drakstats:116
+#, c-format
+msgid "Not used since (days)"
+msgstr "Ikke brukt siden (dager)"
+
+#: ../drakstats:116
+#, c-format
+msgid "Last file accessed"
+msgstr "Siste fil åpnet"
+
+#: ../drakstats:123
+#, c-format
+msgid "Application"
+msgstr "Applikasjon"
+
+#: ../drakstats:123
+#, c-format
+msgid "Used within(days)"
+msgstr "Brukt innen(dager)"
+
+#: ../drakstats:123
+#, c-format
+msgid "Summary"
+msgstr "Sammendrag"
+
+#: ../drakstats:128
+#, c-format
+msgid "Warning"
+msgstr "Advarsel"
+
+#: ../drakstats:128
+#, c-format
+msgid ""
+"The <noatime> option is set on your / or /usr partition, the information "
+"provided by drakstats about file access time may be irrelevant"
+msgstr ""
+"Dette <noatime>-valget er satt på din /- eller /usr-partisjon, informasjonen "
+"gitt av drakstats om tidspunkt for filtilgang kan være irrelevant."
+
+#: ../drakstats:141
+#, c-format
+msgid "Please wait"
+msgstr "Vennligst vent"
+
+#: ../drakstats:141
+#, c-format
+msgid "Reading packages database stats..."
+msgstr "Leser pakkedatabase-informasjon..."
+
+#: ../drakstats:175
+#, c-format
+msgid "Name: "
+msgstr "Navn: "
+
+#: ../drakstats:176
+#, c-format
+msgid "Version: "
+msgstr "Versjon: "
+
+#: ../drakstats:177
+#, c-format
+msgid "Release: "
+msgstr "Utgave: "
+
+#: ../drakstats:178
+#, c-format
+msgid "Size: "
+msgstr "Størrelse: "
+
+#: ../drakstats:178
+#, c-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: ../drakstats:179
+#, c-format
+msgid "Summary: "
+msgstr "Sammendrag: "
+
+#: ../drakstats:180
+#, c-format
+msgid "Description: "
+msgstr "Beskrivelse: "
+
+#: ../drakstats:181
+#, c-format
+msgid "Files: "
+msgstr "Filer: "
+
+#: ../drakstats:189
+#, c-format
+msgid "Package Info"
+msgstr "Pakkeinfo"
+
+#: ../drakstats:199
+#, c-format
+msgid "Close"
+msgstr "Lukk"
+
+#: ../drakstats:208
+#, c-format
+msgid "Send stats"
+msgstr "Send statistikk"
+
+#: ../drakstats:214
+#, c-format
+msgid "Authenticated by: "
+msgstr "Autentisert av: "
+
+#: ../drakstats:220
+#, c-format
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../drakstats:225
+#, c-format
+msgid "Send"
+msgstr "Send"
+
+#: ../drakstats:228
+#, c-format
+msgid "Sending stats..."
+msgstr "Sender statistikk..."
+
+#: ../drakstats:234
+#, c-format
+msgid "Error"
+msgstr "Feil"
+
+#: ../drakstats:234
+#, c-format
+msgid ""
+"Sending data failed!\n"
+" please send email to cooker@mandrivalinux.org"
+msgstr ""
+"En feil oppstod under sending av data!\n"
+" vennligst send en epost til cooker@mandrivalinux.org"
+
+#: ../drakstats:270
+#, c-format
+msgid "More Info"
+msgstr "Mer Informasjon"
+
+#: ../drakstats:270
+#, c-format
+msgid "Uninstall"
+msgstr "Avinstaller"
+
+#: ../drakstats:328
+#, c-format
+msgid "No"
+msgstr "Nei"
+
+#: ../drakstats:331
+#, c-format
+msgid "Yes"
+msgstr "Ja"
+
+#: ../drakstats:335
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+
